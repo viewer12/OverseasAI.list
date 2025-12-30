@@ -3,23 +3,25 @@
 # REPO: git@github.com:viewer12/OverseasAI.list.git
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script (rule/Surge)
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
-# INCLUDED-UPSTREAM-EXTRA: api.githubcopilot.com, cerebras.ai, character.ai, clipdrop.co, cohere.ai, cohere.com, cursor.com, cursor.sh, elevenlabs.com, elevenlabs.io, githubcopilot.com, grok.com, groq.com, hf.co, huggingface.co, mistral.ai, openrouter.ai, perplexity.ai, perplexity.com, poe.com, pplx.ai, qpoe.com, sourcegraph.com, suno.ai, x.ai
+# INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2025-12-31 02:27:35
-# DOMAIN: 28
-# DOMAIN-SUFFIX: 332
-# DOMAIN-KEYWORD: 7
+# UPDATED: 2025-12-31 03:19:46
+# DOMAIN: 30
+# DOMAIN-SUFFIX: 382
+# DOMAIN-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 372
+# TOTAL: 426
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.msn.com
+DOMAIN,api.nvidia.com
 DOMAIN,api.statsig.com
 DOMAIN,assets.msn.com
 DOMAIN,browser-intake-datadoghq.com
+DOMAIN,build.nvidia.com
 DOMAIN,cdn.usefathom.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,copilot.microsoft.com
@@ -50,6 +52,7 @@ DOMAIN-SUFFIX,accountpaypal.org
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,ai21.com
 DOMAIN-SUFFIX,ai21labs.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,anfutong.cn
 DOMAIN-SUFFIX,anfutong.com
@@ -58,6 +61,7 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,api.microsoftapp.net
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,artbreeder.com
 DOMAIN-SUFFIX,augment.dev
 DOMAIN-SUFFIX,augmentcode.com
 DOMAIN-SUFFIX,auth0.com
@@ -89,8 +93,10 @@ DOMAIN-SUFFIX,cashify.net
 DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,chargebee.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,checkout.com
 DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,client-api.arkoselabs.com
@@ -99,19 +105,27 @@ DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,cohere.ai
 DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,continue.dev
+DOMAIN-SUFFIX,copy.ai
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,deepinfra.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,descript.com
 DOMAIN-SUFFIX,devtools-paypal.com
+DOMAIN-SUFFIX,dreamstudio.ai
 DOMAIN-SUFFIX,edgeservices.bing.com
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,exa.ai
 DOMAIN-SUFFIX,experiencebillmelater.com
 DOMAIN-SUFFIX,fal.ai
+DOMAIN-SUFFIX,fastspring.com
+DOMAIN-SUFFIX,fathom.video
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,filipino-music.net
+DOMAIN-SUFFIX,fireflies.ai
 DOMAIN-SUFFIX,fireworks.ai
 DOMAIN-SUFFIX,fundpaypal.com
 DOMAIN-SUFFIX,gemini.google.com
@@ -119,37 +133,54 @@ DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,getbraintree.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,gmoney.org
+DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,i-o-u.info
+DOMAIN-SUFFIX,id.me
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,ideogram.ai
+DOMAIN-SUFFIX,inflection.ai
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,kaiber.ai
 DOMAIN-SUFFIX,krakenjs.com
 DOMAIN-SUFFIX,krea.ai
+DOMAIN-SUFFIX,lambda.ai
+DOMAIN-SUFFIX,langchain.com
+DOMAIN-SUFFIX,langsmith.com
 DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,lemonsqueezy.com
 DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,llamaindex.ai
 DOMAIN-SUFFIX,loanbuilder.com
 DOMAIN-SUFFIX,login-paypal.com
 DOMAIN-SUFFIX,login-paypal.info
 DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,meetgeek.ai
+DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,milvus.io
 DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,murf.ai
 DOMAIN-SUFFIX,mywaytopay.info
 DOMAIN-SUFFIX,mywaytopay.net
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openai.azure.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,otter.ai
 DOMAIN-SUFFIX,pa9pal.com
 DOMAIN-SUFFIX,paaypal.com
+DOMAIN-SUFFIX,paddle.com
 DOMAIN-SUFFIX,paily.net
 DOMAIN-SUFFIX,paily.org
 DOMAIN-SUFFIX,paipal.com
@@ -313,7 +344,12 @@ DOMAIN-SUFFIX,payypal.com
 DOMAIN-SUFFIX,pdncommunity.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,pi.ai
 DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,pinecone.io
+DOMAIN-SUFFIX,play.ht
+DOMAIN-SUFFIX,playgroundai.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,pp-soc.com
 DOMAIN-SUFFIX,ppaypal.com
@@ -324,9 +360,17 @@ DOMAIN-SUFFIX,pypl.com
 DOMAIN-SUFFIX,pypl.info
 DOMAIN-SUFFIX,pypl.net
 DOMAIN-SUFFIX,pypl.tv
+DOMAIN-SUFFIX,qdrant.tech
 DOMAIN-SUFFIX,qpoe.com
+DOMAIN-SUFFIX,quillbot.com
+DOMAIN-SUFFIX,reka.ai
+DOMAIN-SUFFIX,remove.bg
 DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,respeecher.com
+DOMAIN-SUFFIX,runpod.io
 DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,rytr.me
 DOMAIN-SUFFIX,s-xoom.com
 DOMAIN-SUFFIX,secure-paypal.info
 DOMAIN-SUFFIX,securepaypal.info
@@ -338,6 +382,7 @@ DOMAIN-SUFFIX,sourcegraph.com
 DOMAIN-SUFFIX,sslpaypal.org
 DOMAIN-SUFFIX,stability.ai
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,sudowrite.com
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,supermaven.com
 DOMAIN-SUFFIX,swiftbank.info
@@ -349,7 +394,9 @@ DOMAIN-SUFFIX,swiftfinancial.net
 DOMAIN-SUFFIX,tabnine.com
 DOMAIN-SUFFIX,thepaypalshop.com
 DOMAIN-SUFFIX,theshoppingexpresslane.net
+DOMAIN-SUFFIX,tldv.io
 DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,trychroma.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,udio.com
 DOMAIN-SUFFIX,venmo-touch.com
@@ -358,10 +405,14 @@ DOMAIN-SUFFIX,venmo.info
 DOMAIN-SUFFIX,venmo.net
 DOMAIN-SUFFIX,venmo.org
 DOMAIN-SUFFIX,venmo.s3.amazonaws.com
+DOMAIN-SUFFIX,voice.ai
+DOMAIN-SUFFIX,weaviate.io
 DOMAIN-SUFFIX,webmoneyinfo.com
 DOMAIN-SUFFIX,windsurf-telemetry.codeium.com
 DOMAIN-SUFFIX,windsurf.ai
 DOMAIN-SUFFIX,wiremoneytoirelandwithxoomeasierandcheaper.com
+DOMAIN-SUFFIX,wordtune.com
+DOMAIN-SUFFIX,writesonic.com
 DOMAIN-SUFFIX,www-paypal.info
 DOMAIN-SUFFIX,www-paypal.us
 DOMAIN-SUFFIX,wwwxoom.com
@@ -373,6 +424,9 @@ DOMAIN-SUFFIX,xoom.io
 DOMAIN-SUFFIX,xoom.net.cn
 DOMAIN-SUFFIX,xoom.us
 DOMAIN-SUFFIX,xoomcom.com
+DOMAIN-SUFFIX,you.com
+DOMAIN-KEYWORD,bedrock
+DOMAIN-KEYWORD,bedrock-runtime
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage

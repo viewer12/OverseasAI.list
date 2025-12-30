@@ -18,51 +18,43 @@ set of AI-related custom domains.
 - Stripe
 - PayPal
 
-## Upstream AI Services / 上游通用列表里的 AI 服务
-- GitHub Copilot (`githubcopilot.com`, `api.githubcopilot.com`)
-- Sourcegraph/Cody (`sourcegraph.com`)
-- xAI (`x.ai`, `grok.com`)
-- Perplexity (`perplexity.ai`, `perplexity.com`, `pplx.ai`)
-- Poe (`poe.com`, `qpoe.com`)
-- Cursor (`cursor.com`, `cursor.sh`)
-- OpenRouter (`openrouter.ai`)
-- Cohere (`cohere.ai`, `cohere.com`)
-- Mistral (`mistral.ai`)
-- Groq (`groq.com`)
-- Cerebras (`cerebras.ai`)
-- Hugging Face (`huggingface.co`, `hf.co`)
-- Character.AI (`character.ai`)
-- Suno (`suno.ai`)
-- ElevenLabs (`elevenlabs.com`, `elevenlabs.io`)
-- Clipdrop (`clipdrop.co`)
+## Coverage / 覆盖范围
+Model vendors, AI platforms, and apps are grouped below; the exact domains
+are in `OverseasAI.list`, and custom-only entries are in `OverseasAI_Custom.list`.
+
+以下按类别概览覆盖范围，具体域名请以 `OverseasAI.list` 为准，
+自定义补充项见 `OverseasAI_Custom.list`。
+
+### AI Model Vendors / 大模型厂商
+OpenAI, Anthropic, Google Gemini, xAI, Meta, Cohere, Mistral, Groq, Cerebras,
+AI21, Inflection (Pi), Reka, and more.
+
+### AI Platforms & Infra / 平台与基础设施
+OpenRouter, Hugging Face, Together, Fireworks, Replicate, Fal, LangChain,
+LlamaIndex, Pinecone, Weaviate, Qdrant, Milvus, Chroma, and more.
+
+### AI Apps / AI 应用
+Perplexity, Poe, Character.AI, You.com, Phind, Exa, Jasper, Copy.ai,
+Writesonic, Rytr, Sudowrite, Wordtune, Grammarly, QuillBot, and more.
+
+### AI Media (Image/Video/Audio) / 生成式媒体
+Midjourney, Runway, Leonardo, Ideogram, Krea, Luma, Pika, Stability,
+DreamStudio, PlaygroundAI, Kaiber, ElevenLabs, Suno, Udio, and more.
+
+### AI IDEs & Coding Tools / AI 编程工具
+GitHub Copilot, Cursor, Windsurf, Codeium, Augment, Tabnine, Supermaven,
+Continue, Sourcegraph/Cody, Replit, and more.
+
+### AI Verification & Payments / 认证与支付
+SheerID, Stripe, PayPal, ID.me, Paddle, LemonSqueezy, Chargebee,
+FastSpring, Checkout.com, and more.
 
 ## Custom AI Domains / 自定义 AI 域名（上游未包含）
-These are merged into the main list and also recorded in:
-`rule/Surge/OverseasAI/OverseasAI_Custom.list`
+Custom domains are merged into the main list and recorded in:
+`rule/Surge/OverseasAI/OverseasAI_Custom.list`.
 
-以下域名已合并进主规则，并同时记录在：
-`rule/Surge/OverseasAI/OverseasAI_Custom.list`
-
-- SheerID (`sheerid.com`)
-- Windsurf/Codeium (`windsurf.ai`, `codeium.com`, `windsurf-telemetry.codeium.com`)
-- Augment (`augment.dev`, `augmentcode.com`)
-- Tabnine (`tabnine.com`)
-- Supermaven (`supermaven.com`)
-- Continue (`continue.dev`)
-- AI21 (`ai21.com`, `ai21labs.com`)
-- Stability (`stability.ai`)
-- Midjourney (`midjourney.com`)
-- Runway (`runwayml.com`)
-- Replicate (`replicate.com`)
-- Together (`together.ai`)
-- Fireworks (`fireworks.ai`)
-- Leonardo (`leonardo.ai`)
-- Luma (`luma.ai`)
-- Pika (`pika.art`)
-- Ideogram (`ideogram.ai`)
-- Krea (`krea.ai`)
-- Fal (`fal.ai`)
-- Udio (`udio.com`)
+自定义域名已合并进主规则，并记录在：
+`rule/Surge/OverseasAI/OverseasAI_Custom.list`。
 
 If you want more custom domains added, send the list and I will extend
 `OverseasAI_Custom.list` and re-merge.
