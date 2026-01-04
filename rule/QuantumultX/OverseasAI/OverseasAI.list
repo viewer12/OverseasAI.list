@@ -5,14 +5,14 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-01-04 03:42:06
+# UPDATED: 2026-01-04 19:00:26
 # HOST: 30
-# HOST-SUFFIX: 382
+# HOST-SUFFIX: 386
 # HOST-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 426
+# TOTAL: 430
 HOST,ai.google.dev,OverseasAI
 HOST,alkalimakersuite-pa.clients6.google.com,OverseasAI
 HOST,api.githubcopilot.com,OverseasAI
@@ -133,6 +133,7 @@ HOST-SUFFIX,generativeai.google,OverseasAI
 HOST-SUFFIX,getbraintree.com,OverseasAI
 HOST-SUFFIX,githubcopilot.com,OverseasAI
 HOST-SUFFIX,gmoney.org,OverseasAI
+HOST-SUFFIX,google.com,OverseasAI
 HOST-SUFFIX,grammarly.com,OverseasAI
 HOST-SUFFIX,grok.com,OverseasAI
 HOST-SUFFIX,groq.com,OverseasAI
@@ -176,6 +177,9 @@ HOST-SUFFIX,openai.azure.com,OverseasAI
 HOST-SUFFIX,openai.com,OverseasAI
 HOST-SUFFIX,openaiapi-site.azureedge.net,OverseasAI
 HOST-SUFFIX,openaicom.imgix.net,OverseasAI
+HOST-SUFFIX,opencode.ai,OverseasAI
+HOST-SUFFIX,opencode.com,OverseasAI
+HOST-SUFFIX,opencode.dev,OverseasAI
 HOST-SUFFIX,openrouter.ai,OverseasAI
 HOST-SUFFIX,otter.ai,OverseasAI
 HOST-SUFFIX,pa9pal.com,OverseasAI
