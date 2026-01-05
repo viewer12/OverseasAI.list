@@ -35,7 +35,8 @@ LlamaIndex, Pinecone, Weaviate, Qdrant, Milvus, Chroma, and more.
 
 ### AI Apps / AI 应用
 Perplexity, Poe, Character.AI, You.com, Phind, Exa, Jasper, Copy.ai,
-Writesonic, Rytr, Sudowrite, Wordtune, Grammarly, QuillBot, and more.
+Writesonic, Rytr, Sudowrite, Wordtune, Grammarly, QuillBot, Diabrowser,
+and more.
 
 ### AI Media (Image/Video/Audio) / 生成式媒体
 Midjourney, Runway, Leonardo, Ideogram, Krea, Luma, Pika, Stability,

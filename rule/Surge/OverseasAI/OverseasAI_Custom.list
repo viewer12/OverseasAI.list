@@ -1,5 +1,6 @@
 DOMAIN,api.nvidia.com
 DOMAIN,build.nvidia.com
+DOMAIN,integrate.api.nvidia.com
 DOMAIN-KEYWORD,bedrock
 DOMAIN-KEYWORD,bedrock-runtime
 DOMAIN-SUFFIX,ai21.com
@@ -77,6 +78,15 @@ DOMAIN-SUFFIX,wordtune.com
 DOMAIN-SUFFIX,writesonic.com
 DOMAIN-SUFFIX,you.com
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,grep.ai
+DOMAIN-SUFFIX,grep.com
+DOMAIN-SUFFIX,diabrowser.com
+DOMAIN-SUFFIX,diabrowser.ai
+DOMAIN-SUFFIX,diabrowser.app
 DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,opencode.com
 DOMAIN-SUFFIX,opencode.dev
+DOMAIN-SUFFIX,opncd.ai
+DOMAIN-SUFFIX,context7.ai
+DOMAIN-SUFFIX,context7.com
+DOMAIN-SUFFIX,models.dev
