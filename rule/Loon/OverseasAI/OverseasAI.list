@@ -6,17 +6,18 @@
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-01-05 04:56:26
-# DOMAIN: 31
+# DOMAIN: 32
 # DOMAIN-SUFFIX: 393
 # DOMAIN-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 438
+# TOTAL: 439
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.msn.com
+DOMAIN,api.ngc.nvidia.com
 DOMAIN,api.nvidia.com
 DOMAIN,api.statsig.com
 DOMAIN,assets.msn.com

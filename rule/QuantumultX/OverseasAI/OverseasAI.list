@@ -6,17 +6,18 @@
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-01-05 04:56:26
-# HOST: 31
+# HOST: 32
 # HOST-SUFFIX: 393
 # HOST-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 438
+# TOTAL: 439
 HOST,ai.google.dev,OverseasAI
 HOST,alkalimakersuite-pa.clients6.google.com,OverseasAI
 HOST,api.githubcopilot.com,OverseasAI
 HOST,api.msn.com,OverseasAI
+HOST,api.ngc.nvidia.com,OverseasAI
 HOST,api.nvidia.com,OverseasAI
 HOST,api.statsig.com,OverseasAI
 HOST,assets.msn.com,OverseasAI
