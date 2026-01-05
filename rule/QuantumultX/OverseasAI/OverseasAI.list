@@ -5,14 +5,14 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-01-05 03:46:34
-# HOST: 30
-# HOST-SUFFIX: 386
+# UPDATED: 2026-01-05 04:56:26
+# HOST: 31
+# HOST-SUFFIX: 393
 # HOST-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 430
+# TOTAL: 438
 HOST,ai.google.dev,OverseasAI
 HOST,alkalimakersuite-pa.clients6.google.com,OverseasAI
 HOST,api.githubcopilot.com,OverseasAI
@@ -29,6 +29,7 @@ HOST,gateway.bingviz.microsoft.net,OverseasAI
 HOST,gateway.bingviz.microsoftapp.net,OverseasAI
 HOST,generativelanguage.googleapis.com,OverseasAI
 HOST,in.appcenter.ms,OverseasAI
+HOST,integrate.api.nvidia.com,OverseasAI
 HOST,location.microsoft.com,OverseasAI
 HOST,makersuite.google.com,OverseasAI
 HOST,odc.officeapps.live.com,OverseasAI
@@ -59,6 +60,7 @@ HOST-SUFFIX,anfutong.com,OverseasAI
 HOST-SUFFIX,anfutong.com.cn,OverseasAI
 HOST-SUFFIX,anthropic.com,OverseasAI
 HOST-SUFFIX,api.microsoftapp.net,OverseasAI
+HOST-SUFFIX,api.nvidia.com,OverseasAI
 HOST-SUFFIX,api.statsig.com,OverseasAI
 HOST-SUFFIX,apis.google.com,OverseasAI
 HOST-SUFFIX,artbreeder.com,OverseasAI
@@ -104,6 +106,7 @@ HOST-SUFFIX,clipdrop.co,OverseasAI
 HOST-SUFFIX,codeium.com,OverseasAI
 HOST-SUFFIX,cohere.ai,OverseasAI
 HOST-SUFFIX,cohere.com,OverseasAI
+HOST-SUFFIX,context7.com,OverseasAI
 HOST-SUFFIX,continue.dev,OverseasAI
 HOST-SUFFIX,copy.ai,OverseasAI
 HOST-SUFFIX,cursor.com,OverseasAI
@@ -113,6 +116,8 @@ HOST-SUFFIX,deepmind.com,OverseasAI
 HOST-SUFFIX,deepmind.google,OverseasAI
 HOST-SUFFIX,descript.com,OverseasAI
 HOST-SUFFIX,devtools-paypal.com,OverseasAI
+HOST-SUFFIX,diabrowser.ai,OverseasAI
+HOST-SUFFIX,diabrowser.com,OverseasAI
 HOST-SUFFIX,dreamstudio.ai,OverseasAI
 HOST-SUFFIX,edgeservices.bing.com,OverseasAI
 HOST-SUFFIX,elevenlabs.com,OverseasAI
@@ -135,6 +140,7 @@ HOST-SUFFIX,githubcopilot.com,OverseasAI
 HOST-SUFFIX,gmoney.org,OverseasAI
 HOST-SUFFIX,google.com,OverseasAI
 HOST-SUFFIX,grammarly.com,OverseasAI
+HOST-SUFFIX,grep.app,OverseasAI
 HOST-SUFFIX,grok.com,OverseasAI
 HOST-SUFFIX,groq.com,OverseasAI
 HOST-SUFFIX,hf.co,OverseasAI
@@ -167,6 +173,7 @@ HOST-SUFFIX,meta.ai,OverseasAI
 HOST-SUFFIX,midjourney.com,OverseasAI
 HOST-SUFFIX,milvus.io,OverseasAI
 HOST-SUFFIX,mistral.ai,OverseasAI
+HOST-SUFFIX,models.dev,OverseasAI
 HOST-SUFFIX,murf.ai,OverseasAI
 HOST-SUFFIX,mywaytopay.info,OverseasAI
 HOST-SUFFIX,mywaytopay.net,OverseasAI
@@ -181,6 +188,7 @@ HOST-SUFFIX,opencode.ai,OverseasAI
 HOST-SUFFIX,opencode.com,OverseasAI
 HOST-SUFFIX,opencode.dev,OverseasAI
 HOST-SUFFIX,openrouter.ai,OverseasAI
+HOST-SUFFIX,opncd.ai,OverseasAI
 HOST-SUFFIX,otter.ai,OverseasAI
 HOST-SUFFIX,pa9pal.com,OverseasAI
 HOST-SUFFIX,paaypal.com,OverseasAI

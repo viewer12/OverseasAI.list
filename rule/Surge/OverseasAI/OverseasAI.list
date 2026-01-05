@@ -5,14 +5,14 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-01-05 03:46:34
-# DOMAIN: 30
-# DOMAIN-SUFFIX: 386
+# UPDATED: 2026-01-05 04:56:26
+# DOMAIN: 31
+# DOMAIN-SUFFIX: 393
 # DOMAIN-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 430
+# TOTAL: 438
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,api.githubcopilot.com
@@ -29,6 +29,7 @@ DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,gateway.bingviz.microsoftapp.net
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,in.appcenter.ms
+DOMAIN,integrate.api.nvidia.com
 DOMAIN,location.microsoft.com
 DOMAIN,makersuite.google.com
 DOMAIN,odc.officeapps.live.com
@@ -59,6 +60,7 @@ DOMAIN-SUFFIX,anfutong.com
 DOMAIN-SUFFIX,anfutong.com.cn
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,api.nvidia.com
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,artbreeder.com
@@ -104,6 +106,7 @@ DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,cohere.ai
 DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,continue.dev
 DOMAIN-SUFFIX,copy.ai
 DOMAIN-SUFFIX,cursor.com
@@ -113,6 +116,8 @@ DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,descript.com
 DOMAIN-SUFFIX,devtools-paypal.com
+DOMAIN-SUFFIX,diabrowser.ai
+DOMAIN-SUFFIX,diabrowser.com
 DOMAIN-SUFFIX,dreamstudio.ai
 DOMAIN-SUFFIX,edgeservices.bing.com
 DOMAIN-SUFFIX,elevenlabs.com
@@ -135,6 +140,7 @@ DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,gmoney.org
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,grep.app
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,hf.co
@@ -167,6 +173,7 @@ DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,milvus.io
 DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,models.dev
 DOMAIN-SUFFIX,murf.ai
 DOMAIN-SUFFIX,mywaytopay.info
 DOMAIN-SUFFIX,mywaytopay.net
@@ -181,6 +188,7 @@ DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,opencode.com
 DOMAIN-SUFFIX,opencode.dev
 DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,opncd.ai
 DOMAIN-SUFFIX,otter.ai
 DOMAIN-SUFFIX,pa9pal.com
 DOMAIN-SUFFIX,paaypal.com

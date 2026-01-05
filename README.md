@@ -27,15 +27,17 @@ are in `OverseasAI.list`, and custom-only entries are in `OverseasAI_Custom.list
 
 ### AI Model Vendors / 大模型厂商
 OpenAI, Anthropic, Google Gemini, xAI, Meta, Cohere, Mistral, Groq, Cerebras,
-AI21, Inflection (Pi), Reka, and more.
+AI21, Inflection (Pi), Reka, NVIDIA (NIM/API), and more.
 
 ### AI Platforms & Infra / 平台与基础设施
 OpenRouter, Hugging Face, Together, Fireworks, Replicate, Fal, LangChain,
-LlamaIndex, Pinecone, Weaviate, Qdrant, Milvus, Chroma, and more.
+LlamaIndex, Pinecone, Weaviate, Qdrant, Milvus, Chroma, OpenCode (opencode.ai /
+opncd.ai / models.dev), and more.
 
 ### AI Apps / AI 应用
 Perplexity, Poe, Character.AI, You.com, Phind, Exa, Jasper, Copy.ai,
-Writesonic, Rytr, Sudowrite, Wordtune, Grammarly, QuillBot, and more.
+Writesonic, Rytr, Sudowrite, Wordtune, Grammarly, QuillBot, Diabrowser, and
+more.
 
 ### AI Media (Image/Video/Audio) / 生成式媒体
 Midjourney, Runway, Leonardo, Ideogram, Krea, Luma, Pika, Stability,
@@ -43,7 +45,8 @@ DreamStudio, PlaygroundAI, Kaiber, ElevenLabs, Suno, Udio, and more.
 
 ### AI IDEs & Coding Tools / AI 编程工具
 GitHub Copilot, Cursor, Windsurf, Codeium, Augment, Tabnine, Supermaven,
-Continue, Sourcegraph/Cody, Replit, and more.
+Continue, Sourcegraph/Cody, Replit, Context7, Grep.app (MCP endpoints), and
+more.
 
 ### AI Verification & Payments / 认证与支付
 SheerID, Stripe, PayPal, ID.me, Paddle, LemonSqueezy, Chargebee,
