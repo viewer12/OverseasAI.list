@@ -5,14 +5,14 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-01-06 05:25:14
+# UPDATED: 2026-01-07 00:19:51
 # HOST: 32
-# HOST-SUFFIX: 394
+# HOST-SUFFIX: 396
 # HOST-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 440
+# TOTAL: 442
 HOST,ai.google.dev,OverseasAI
 HOST,alkalimakersuite-pa.clients6.google.com,OverseasAI
 HOST,api.githubcopilot.com,OverseasAI
@@ -88,6 +88,7 @@ HOST-SUFFIX,braintreepaymentsolutions.com,OverseasAI
 HOST-SUFFIX,braintreeps.com,OverseasAI
 HOST-SUFFIX,briantreepayments.net,OverseasAI
 HOST-SUFFIX,briantreepayments.tv,OverseasAI
+HOST-SUFFIX,business.gemini.google,OverseasAI
 HOST-SUFFIX,buyfast-paysmart.net,OverseasAI
 HOST-SUFFIX,card.io,OverseasAI
 HOST-SUFFIX,cash2.com,OverseasAI
@@ -134,6 +135,7 @@ HOST-SUFFIX,filipino-music.net,OverseasAI
 HOST-SUFFIX,fireflies.ai,OverseasAI
 HOST-SUFFIX,fireworks.ai,OverseasAI
 HOST-SUFFIX,fundpaypal.com,OverseasAI
+HOST-SUFFIX,gemini.google,OverseasAI
 HOST-SUFFIX,gemini.google.com,OverseasAI
 HOST-SUFFIX,generativeai.google,OverseasAI
 HOST-SUFFIX,getbraintree.com,OverseasAI
