@@ -5,14 +5,14 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-01-07 03:21:57
+# UPDATED: 2026-01-08 03:22:15
 # HOST: 32
-# HOST-SUFFIX: 396
+# HOST-SUFFIX: 397
 # HOST-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 442
+# TOTAL: 443
 HOST,ai.google.dev,OverseasAI
 HOST,alkalimakersuite-pa.clients6.google.com,OverseasAI
 HOST,api.githubcopilot.com,OverseasAI
@@ -102,8 +102,8 @@ HOST-SUFFIX,chatgpt.com,OverseasAI
 HOST-SUFFIX,chatgpt.livekit.cloud,OverseasAI
 HOST-SUFFIX,checkout.com,OverseasAI
 HOST-SUFFIX,civitai.com,OverseasAI
-HOST-SUFFIX,claude.com,OverseasAI
 HOST-SUFFIX,claude.ai,OverseasAI
+HOST-SUFFIX,claude.com,OverseasAI
 HOST-SUFFIX,client-api.arkoselabs.com,OverseasAI
 HOST-SUFFIX,clipdrop.co,OverseasAI
 HOST-SUFFIX,codeium.com,OverseasAI
