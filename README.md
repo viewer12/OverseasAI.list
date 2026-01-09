@@ -35,7 +35,7 @@ LlamaIndex, Pinecone, Weaviate, Qdrant, Milvus, Chroma, OpenCode (opencode.ai /
 opncd.ai / models.dev), and more.
 
 ### AI Apps / AI 应用
-Perplexity, Poe, Character.AI, You.com, Phind, Exa, Jasper, Copy.ai,
+Perplexity, Poe, Character.AI, You.com, Phind, Exa, Jasper, Copy.ai, Manus,
 Writesonic, Rytr, Sudowrite, Wordtune, Grammarly, QuillBot, Diabrowser, and
 more.
 

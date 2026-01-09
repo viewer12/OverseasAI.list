@@ -5,14 +5,14 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-01-09 03:22:55
+# UPDATED: 2026-01-09 07:42:10
 # DOMAIN: 32
-# DOMAIN-SUFFIX: 397
+# DOMAIN-SUFFIX: 400
 # DOMAIN-KEYWORD: 9
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 443
+# TOTAL: 446
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,api.githubcopilot.com
@@ -173,6 +173,9 @@ DOMAIN-SUFFIX,login-paypal.com
 DOMAIN-SUFFIX,login-paypal.info
 DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,manus.ai
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,manuscdn.com
 DOMAIN-SUFFIX,meetgeek.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,midjourney.com
