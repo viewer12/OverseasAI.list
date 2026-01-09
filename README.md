@@ -45,8 +45,8 @@ DreamStudio, PlaygroundAI, Kaiber, Lovart, ElevenLabs, Suno, Udio, and more.
 
 ### AI IDEs & Coding Tools / AI 编程工具
 GitHub Copilot, Cursor, Windsurf, Codeium, Augment, Tabnine, Supermaven,
-Continue, Sourcegraph/Cody, Replit, Context7, Grep.app (MCP endpoints), and
-more.
+Continue, AmpCode, Sourcegraph/Cody, Replit, Context7, Grep.app (MCP endpoints),
+and more.
 
 ### AI Verification & Payments / 认证与支付
 SheerID, Stripe, PayPal, ID.me, Paddle, LemonSqueezy, Chargebee,
