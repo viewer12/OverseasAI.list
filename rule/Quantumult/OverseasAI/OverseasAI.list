@@ -5,19 +5,37 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-03-04 03:58:22
-# HOST: 47
-# HOST-SUFFIX: 412
+# UPDATED: 2026-03-04 23:05:57
+# HOST: 51
+# HOST-SUFFIX: 426
 # HOST-KEYWORD: 10
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 474
+# TOTAL: 477
 HOST,ai.azure.com,OverseasAI
 HOST,ai.google.dev,OverseasAI
 HOST,alkalimakersuite-pa.clients6.google.com,OverseasAI
 HOST,api.cloudflare.com,OverseasAI
 HOST,api.githubcopilot.com,OverseasAI
+HOST-SUFFIX,vertexai.google.com,OverseasAI
+HOST-SUFFIX,agents.google.com,OverseasAI
+HOST-SUFFIX,arcastra.com,OverseasAI
+HOST-SUFFIX,algoscale.com,OverseasAI
+HOST-SUFFIX,activepieces.com,OverseasAI
+HOST-SUFFIX,veo.google.com,OverseasAI
+HOST-SUFFIX,lumalabs.ai,OverseasAI
+HOST,api.pika.art,OverseasAI
+HOST-SUFFIX,consensus.app,OverseasAI
+HOST-SUFFIX,scite.ai,OverseasAI
+HOST-SUFFIX,elicit.com,OverseasAI
+HOST-SUFFIX,windsurf.dev,OverseasAI
+HOST-SUFFIX,mintlify.com,OverseasAI
+HOST-SUFFIX,n8n.io,OverseasAI
+HOST-SUFFIX,make.com,OverseasAI
+HOST,api.openrouter.ai,OverseasAI
+HOST,api.together.ai,OverseasAI
+HOST,api.fireworks.ai,OverseasAI
 HOST,api.jetbrains.ai,OverseasAI
 HOST,api.msn.com,OverseasAI
 HOST,api.ngc.nvidia.com,OverseasAI
@@ -487,3 +505,21 @@ IP-CIDR,64.23.132.171/32,OverseasAI
 IP-ASN,14061,OverseasAI
 IP-ASN,20473,OverseasAI
 USER-AGENT,PayPal*,OverseasAI
+DOMAIN-SUFFIX,vertexai.google.com
+DOMAIN-SUFFIX,agents.google.com
+DOMAIN-SUFFIX,arcastra.com
+DOMAIN-SUFFIX,algoscale.com
+DOMAIN-SUFFIX,activepieces.com
+DOMAIN-SUFFIX,veo.google.com
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN,api.pika.art
+DOMAIN-SUFFIX,consensus.app
+DOMAIN-SUFFIX,scite.ai
+DOMAIN-SUFFIX,elicit.com
+DOMAIN-SUFFIX,windsurf.dev
+DOMAIN-SUFFIX,mintlify.com
+DOMAIN-SUFFIX,n8n.io
+DOMAIN-SUFFIX,make.com
+DOMAIN,api.openrouter.ai
+DOMAIN,api.together.ai
+DOMAIN,api.fireworks.ai

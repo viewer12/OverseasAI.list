@@ -5,14 +5,14 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-03-04 03:58:22
-# DOMAIN: 47
-# DOMAIN-SUFFIX: 412
+# UPDATED: 2026-03-04 23:04:58
+# DOMAIN: 51
+# DOMAIN-SUFFIX: 426
 # DOMAIN-KEYWORD: 10
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 474
+# TOTAL: 492
 DOMAIN,ai.azure.com
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -487,3 +487,21 @@ IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,14061,no-resolve
 IP-ASN,20473,no-resolve
 USER-AGENT,PayPal*
+DOMAIN-SUFFIX,vertexai.google.com
+DOMAIN-SUFFIX,agents.google.com
+DOMAIN-SUFFIX,arcastra.com
+DOMAIN-SUFFIX,algoscale.com
+DOMAIN-SUFFIX,activepieces.com
+DOMAIN-SUFFIX,veo.google.com
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN,api.pika.art
+DOMAIN-SUFFIX,consensus.app
+DOMAIN-SUFFIX,scite.ai
+DOMAIN-SUFFIX,elicit.com
+DOMAIN-SUFFIX,windsurf.dev
+DOMAIN-SUFFIX,mintlify.com
+DOMAIN-SUFFIX,n8n.io
+DOMAIN-SUFFIX,make.com
+DOMAIN,api.openrouter.ai
+DOMAIN,api.together.ai
+DOMAIN,api.fireworks.ai

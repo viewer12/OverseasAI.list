@@ -1,0 +1,35 @@
+# 2026年新增海外AI平台规则
+# 添加时间：2026-03-04
+# 检测状态：DNS解析正常，服务可用
+
+# Google Vertex AI Agent Builder - AI代理构建平台
+DOMAIN-SUFFIX,vertexai.google.com
+DOMAIN-SUFFIX,agents.google.com
+
+# 新兴AI代理平台
+DOMAIN-SUFFIX,arcastra.com
+DOMAIN-SUFFIX,algoscale.com
+DOMAIN-SUFFIX,activepieces.com
+
+# 视频生成平台
+DOMAIN-SUFFIX,veo.google.com
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN,api.pika.art
+
+# 研究分析AI工具
+DOMAIN-SUFFIX,consensus.app
+DOMAIN-SUFFIX,scite.ai
+DOMAIN-SUFFIX,elicit.com
+
+# 开发工具
+DOMAIN-SUFFIX,windsurf.dev
+DOMAIN-SUFFIX,mintlify.com
+
+# 工作流自动化平台
+DOMAIN-SUFFIX,n8n.io
+DOMAIN-SUFFIX,make.com
+
+# API端点补充
+DOMAIN,api.openrouter.ai
+DOMAIN,api.together.ai
+DOMAIN,api.fireworks.ai
