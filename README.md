@@ -18,10 +18,11 @@ This repository builds a single overseas AI rule-set for Surge and other rule-ba
 
 ### Coverage Snapshot
 
-- Model vendors: OpenAI, Anthropic, Gemini, xAI, Cohere, Mistral, Groq, Cerebras, AI21, NVIDIA
-- Platforms and infra: OpenRouter, Hugging Face, Firecrawl, Tavily, Together, Fireworks, Replicate, Fal, LangChain, LlamaIndex, Pinecone, Weaviate, Qdrant, Milvus
-- Apps and coding tools: Perplexity, Poe, Cursor, Windsurf, v0, Lovable, Bolt, OpenClaw, Replit, AmpCode, Context7, Grep.app
-- Media and voice: Midjourney, Sora, Runway, Leonardo, Ideogram, ElevenLabs, Suno, Udio, Deepgram, AssemblyAI
+- Model vendors: OpenAI, Anthropic, Gemini, xAI, Cohere, Mistral, Groq, Cerebras, AI21, NVIDIA, Writer, SambaNova, Aleph Alpha, Ai2, Liquid AI, Nous Research
+- Platforms and infra: OpenRouter, Hugging Face, Firecrawl, Tavily, Together, Fireworks, Replicate, Fal, LangChain, LlamaIndex, Pinecone, Weaviate, Qdrant, Milvus, Modal, Baseten, Anyscale, CoreWeave, Nebius, Crusoe, Vast.ai, Hyperbolic, Voyage AI, Nomic, turbopuffer
+- LLM ops and data/agent infra: Langfuse, Helicone, Braintrust, Arize, Portkey, LiteLLM, Weights & Biases, Apify, Bright Data, Browserbase, Browserless, ScrapingBee, ZenRows, Diffbot, Serper, SerpApi, Glean, Hebbia, Dust, Sierra, Lindy, Relay, Bardeen
+- Apps and coding tools: Perplexity, Poe, Cursor, Windsurf, v0, Lovable, Bolt, OpenClaw, Replit, AmpCode, Context7, Grep.app, Devin/Cognition, Cline, Roo Code, Qodo, Warp, Factory, CodeRabbit, Greptile, Sourcery, Sweep, Cosine, Pieces, Tabby, Refact, Mintlify, Gamma, Read AI, Granola
+- Media and voice: Midjourney, Sora, Runway, Leonardo, Ideogram, ElevenLabs, Suno, Udio, Deepgram, AssemblyAI, HeyGen, Synthesia, D-ID, Black Forest Labs (FLUX), Recraft, Magnific, Photoroom, Topaz, Captions, Hedra, Higgsfield, Viggle, Genmo, Hume, Cartesia, Resemble, WellSaid, Speechify, LMNT, Fliki, Pictory, InVideo, Colossyan
 
 ### Files
 
@@ -119,10 +120,11 @@ Artifacts:
 
 ### 覆盖概览
 
-- 模型厂商：OpenAI、Anthropic、Gemini、xAI、Cohere、Mistral、Groq、Cerebras、AI21、NVIDIA
-- 平台与基础设施：OpenRouter、Hugging Face、Firecrawl、Tavily、Together、Fireworks、Replicate、Fal、LangChain、LlamaIndex、Pinecone、Weaviate、Qdrant、Milvus
-- 应用与编程工具：Perplexity、Poe、Cursor、Windsurf、v0、Lovable、Bolt、OpenClaw、Replit、AmpCode、Context7、Grep.app
-- 媒体与语音：Midjourney、Sora、Runway、Leonardo、Ideogram、ElevenLabs、Suno、Udio、Deepgram、AssemblyAI
+- 模型厂商：OpenAI、Anthropic、Gemini、xAI、Cohere、Mistral、Groq、Cerebras、AI21、NVIDIA、Writer、SambaNova、Aleph Alpha、Ai2、Liquid AI、Nous Research
+- 平台与基础设施：OpenRouter、Hugging Face、Firecrawl、Tavily、Together、Fireworks、Replicate、Fal、LangChain、LlamaIndex、Pinecone、Weaviate、Qdrant、Milvus、Modal、Baseten、Anyscale、CoreWeave、Nebius、Crusoe、Vast.ai、Hyperbolic、Voyage AI、Nomic、turbopuffer
+- 大模型运维与数据 / Agent 基础设施：Langfuse、Helicone、Braintrust、Arize、Portkey、LiteLLM、Weights & Biases、Apify、Bright Data、Browserbase、Browserless、ScrapingBee、ZenRows、Diffbot、Serper、SerpApi、Glean、Hebbia、Dust、Sierra、Lindy、Relay、Bardeen
+- 应用与编程工具：Perplexity、Poe、Cursor、Windsurf、v0、Lovable、Bolt、OpenClaw、Replit、AmpCode、Context7、Grep.app、Devin/Cognition、Cline、Roo Code、Qodo、Warp、Factory、CodeRabbit、Greptile、Sourcery、Sweep、Cosine、Pieces、Tabby、Refact、Mintlify、Gamma、Read AI、Granola
+- 媒体与语音：Midjourney、Sora、Runway、Leonardo、Ideogram、ElevenLabs、Suno、Udio、Deepgram、AssemblyAI、HeyGen、Synthesia、D-ID、Black Forest Labs（FLUX）、Recraft、Magnific、Photoroom、Topaz、Captions、Hedra、Higgsfield、Viggle、Genmo、Hume、Cartesia、Resemble、WellSaid、Speechify、LMNT、Fliki、Pictory、InVideo、Colossyan
 
 ### 文件说明
 
