@@ -7,12 +7,12 @@
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-05-29 06:02:59
 # DOMAIN: 48
-# DOMAIN-SUFFIX: 434
-# DOMAIN-KEYWORD: 10
+# DOMAIN-SUFFIX: 436
+# DOMAIN-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 497
+# TOTAL: 500
 DOMAIN,ai.azure.com
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -119,6 +119,7 @@ DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,character.ai
 DOMAIN-SUFFIX,chargebee.com
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,checkout.com
@@ -139,6 +140,7 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,continue.dev
 DOMAIN-SUFFIX,copy.ai
+DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,deepgram.com
@@ -497,6 +499,7 @@ DOMAIN-SUFFIX,you.com
 DOMAIN-SUFFIX,zed.dev
 DOMAIN-KEYWORD,bedrock
 DOMAIN-KEYWORD,bedrock-runtime
+DOMAIN-KEYWORD,chatgpt-async-webps
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativeai

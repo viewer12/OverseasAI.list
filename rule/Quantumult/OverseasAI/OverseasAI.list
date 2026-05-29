@@ -7,12 +7,12 @@
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-05-29 06:02:59
 # HOST: 48
-# HOST-SUFFIX: 434
-# HOST-KEYWORD: 10
+# HOST-SUFFIX: 436
+# HOST-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 497
+# TOTAL: 500
 HOST,ai.azure.com,OverseasAI
 HOST,ai.google.dev,OverseasAI
 HOST,alkalimakersuite-pa.clients6.google.com,OverseasAI
@@ -119,6 +119,7 @@ HOST-SUFFIX,cerebras.ai,OverseasAI
 HOST-SUFFIX,challenges.cloudflare.com,OverseasAI
 HOST-SUFFIX,character.ai,OverseasAI
 HOST-SUFFIX,chargebee.com,OverseasAI
+HOST-SUFFIX,chat.com,OverseasAI
 HOST-SUFFIX,chatgpt.com,OverseasAI
 HOST-SUFFIX,chatgpt.livekit.cloud,OverseasAI
 HOST-SUFFIX,checkout.com,OverseasAI
@@ -139,6 +140,7 @@ HOST-SUFFIX,cohere.com,OverseasAI
 HOST-SUFFIX,context7.com,OverseasAI
 HOST-SUFFIX,continue.dev,OverseasAI
 HOST-SUFFIX,copy.ai,OverseasAI
+HOST-SUFFIX,crixet.com,OverseasAI
 HOST-SUFFIX,cursor.com,OverseasAI
 HOST-SUFFIX,cursor.sh,OverseasAI
 HOST-SUFFIX,deepgram.com,OverseasAI
@@ -497,6 +499,7 @@ HOST-SUFFIX,you.com,OverseasAI
 HOST-SUFFIX,zed.dev,OverseasAI
 HOST-KEYWORD,bedrock,OverseasAI
 HOST-KEYWORD,bedrock-runtime,OverseasAI
+HOST-KEYWORD,chatgpt-async-webps,OverseasAI
 HOST-KEYWORD,colab,OverseasAI
 HOST-KEYWORD,developerprofiles,OverseasAI
 HOST-KEYWORD,generativeai,OverseasAI

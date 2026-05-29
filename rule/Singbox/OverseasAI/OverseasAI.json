@@ -111,6 +111,7 @@
         "challenges.cloudflare.com",
         "character.ai",
         "chargebee.com",
+        "chat.com",
         "chatgpt.com",
         "chatgpt.livekit.cloud",
         "checkout.com",
@@ -131,6 +132,7 @@
         "context7.com",
         "continue.dev",
         "copy.ai",
+        "crixet.com",
         "cursor.com",
         "cursor.sh",
         "deepgram.com",
@@ -491,6 +493,7 @@
       "domain_keyword": [
         "bedrock",
         "bedrock-runtime",
+        "chatgpt-async-webps",
         "colab",
         "developerprofiles",
         "generativeai",
