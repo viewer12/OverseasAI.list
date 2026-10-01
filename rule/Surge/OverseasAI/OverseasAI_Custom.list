@@ -1,4 +1,4 @@
-DOMAIN,ai.azure.com
+DOMAIN,ai-gateway.vercel.sh
 DOMAIN,api.cloudflare.com
 DOMAIN,api.jetbrains.ai
 DOMAIN,api.ngc.nvidia.com
@@ -9,7 +9,9 @@ DOMAIN,aws-toolkit-language-servers.amazonaws.com
 DOMAIN,build.nvidia.com
 DOMAIN,clau.de
 DOMAIN,client-telemetry.us-east-1.amazonaws.com
+DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,codewhisperer.us-east-1.amazonaws.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,desktop-release.codewhisperer.us-east-1.amazonaws.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,idetoolkits-hostedfiles.amazonaws.com
@@ -18,6 +20,8 @@ DOMAIN,integrate.api.nvidia.com
 DOMAIN,q.us-east-1.amazonaws.com
 DOMAIN,specs.q.us-east-1.amazonaws.com
 DOMAIN,telemetry.aws-language-servers.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,abacus.ai
+DOMAIN-SUFFIX,ai.azure.com
 DOMAIN-SUFFIX,ai21.com
 DOMAIN-SUFFIX,ai21labs.com
 DOMAIN-SUFFIX,aiplatform.googleapis.com
@@ -25,6 +29,7 @@ DOMAIN-SUFFIX,aleph-alpha.com
 DOMAIN-SUFFIX,allenai.org
 DOMAIN-SUFFIX,ampcode.ai
 DOMAIN-SUFFIX,ampcode.com
+DOMAIN-SUFFIX,antigravity.google
 DOMAIN-SUFFIX,anyscale.com
 DOMAIN-SUFFIX,api.nvidia.com
 DOMAIN-SUFFIX,apify.com
@@ -35,6 +40,8 @@ DOMAIN-SUFFIX,augment.dev
 DOMAIN-SUFFIX,augmentcode.com
 DOMAIN-SUFFIX,azuredatabricks.net
 DOMAIN-SUFFIX,bardeen.ai
+DOMAIN-SUFFIX,base44.app
+DOMAIN-SUFFIX,base44.com
 DOMAIN-SUFFIX,baseten.co
 DOMAIN-SUFFIX,beautiful.ai
 DOMAIN-SUFFIX,bfl.ai
@@ -69,6 +76,9 @@ DOMAIN-SUFFIX,coreweave.com
 DOMAIN-SUFFIX,cosine.sh
 DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,crusoe.ai
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,d-id.com
 DOMAIN-SUFFIX,deepgram.com
 DOMAIN-SUFFIX,deepinfra.com
@@ -93,6 +103,7 @@ DOMAIN-SUFFIX,gamma.app
 DOMAIN-SUFFIX,gcp.databricks.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,genmo.ai
+DOMAIN-SUFFIX,genspark.ai
 DOMAIN-SUFFIX,glean.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,grammarly.com
@@ -120,11 +131,13 @@ DOMAIN-SUFFIX,ideogram.ai
 DOMAIN-SUFFIX,inflection.ai
 DOMAIN-SUFFIX,invideo.io
 DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,jules.google
 DOMAIN-SUFFIX,kaiber.ai
 DOMAIN-SUFFIX,kilo.ai
 DOMAIN-SUFFIX,kilocode.ai
-DOMAIN-SUFFIX,kilocode.app
+DOMAIN-SUFFIX,kiro.dev
 DOMAIN-SUFFIX,krea.ai
+DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,lambda.ai
 DOMAIN-SUFFIX,langchain.com
 DOMAIN-SUFFIX,langfuse.com
@@ -132,13 +145,16 @@ DOMAIN-SUFFIX,langsmith.com
 DOMAIN-SUFFIX,lemonsqueezy.com
 DOMAIN-SUFFIX,leonardo.ai
 DOMAIN-SUFFIX,lindy.ai
+DOMAIN-SUFFIX,link.com
 DOMAIN-SUFFIX,liquid.ai
 DOMAIN-SUFFIX,litellm.ai
 DOMAIN-SUFFIX,llamaindex.ai
 DOMAIN-SUFFIX,lmnt.com
+DOMAIN-SUFFIX,lmstudio.ai
 DOMAIN-SUFFIX,lovable.dev
 DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,lumalabs.ai
 DOMAIN-SUFFIX,magnific.com
 DOMAIN-SUFFIX,manus.ai
 DOMAIN-SUFFIX,manus.im
@@ -155,7 +171,11 @@ DOMAIN-SUFFIX,models.dev
 DOMAIN-SUFFIX,murf.ai
 DOMAIN-SUFFIX,nebius.com
 DOMAIN-SUFFIX,nomic.ai
+DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,nousresearch.com
+DOMAIN-SUFFIX,novita.ai
+DOMAIN-SUFFIX,ollama.ai
+DOMAIN-SUFFIX,ollama.com
 DOMAIN-SUFFIX,openai.azure.com
 DOMAIN-SUFFIX,openclaw.ai
 DOMAIN-SUFFIX,opencode.ai
@@ -174,6 +194,7 @@ DOMAIN-SUFFIX,pinecone.io
 DOMAIN-SUFFIX,play.ht
 DOMAIN-SUFFIX,playgroundai.com
 DOMAIN-SUFFIX,plusai.com
+DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,portkey.ai
 DOMAIN-SUFFIX,qdrant.tech
 DOMAIN-SUFFIX,qodo.ai
@@ -185,6 +206,7 @@ DOMAIN-SUFFIX,reka.ai
 DOMAIN-SUFFIX,relay.app
 DOMAIN-SUFFIX,remove.bg
 DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
 DOMAIN-SUFFIX,replit.com
 DOMAIN-SUFFIX,resemble.ai
 DOMAIN-SUFFIX,respeecher.com
@@ -204,15 +226,19 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,sourcery.ai
 DOMAIN-SUFFIX,speechify.com
 DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,stitch.withgoogle.com
 DOMAIN-SUFFIX,sudowrite.com
+DOMAIN-SUFFIX,suno.com
 DOMAIN-SUFFIX,supermaven.com
 DOMAIN-SUFFIX,sweep.dev
 DOMAIN-SUFFIX,synthesia.io
 DOMAIN-SUFFIX,tabbyml.com
 DOMAIN-SUFFIX,tabnine.com
 DOMAIN-SUFFIX,tavily.com
+DOMAIN-SUFFIX,thinkingmachines.ai
 DOMAIN-SUFFIX,tldv.io
 DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,together.xyz
 DOMAIN-SUFFIX,topazlabs.com
 DOMAIN-SUFFIX,trychroma.com
 DOMAIN-SUFFIX,turbopuffer.com
@@ -232,6 +258,7 @@ DOMAIN-SUFFIX,wellsaid.io
 DOMAIN-SUFFIX,wellsaidlabs.com
 DOMAIN-SUFFIX,windsurf-telemetry.codeium.com
 DOMAIN-SUFFIX,windsurf.ai
+DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,wordtune.com
 DOMAIN-SUFFIX,writer.com
 DOMAIN-SUFFIX,writesonic.com

@@ -5,17 +5,17 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-09-30 07:39:12
-# domain_set: 48
-# domain_suffix_set: 528
+# UPDATED: 2026-10-01 13:35:31
+# domain_set: 50
+# domain_suffix_set: 553
 # domain_keyword_set: 11
 # ip_cidr_set: 2
 # asn_set: 2
 # user_agent_set: 1
-# TOTAL: 592
+# TOTAL: 619
 no_resolve: true
 domain_set:
-- ai.azure.com
+- ai-gateway.vercel.sh
 - ai.google.dev
 - alkalimakersuite-pa.clients6.google.com
 - api.cloudflare.com
@@ -35,8 +35,10 @@ domain_set:
 - chat.openai.com.cdn.cloudflare.net
 - clau.de
 - client-telemetry.us-east-1.amazonaws.com
+- cloudcode-pa.googleapis.com
 - codewhisperer.us-east-1.amazonaws.com
 - copilot.microsoft.com
+- daily-cloudcode-pa.googleapis.com
 - desktop-release.codewhisperer.us-east-1.amazonaws.com
 - gateway.ai.cloudflare.com
 - gateway.bingviz.microsoft.net
@@ -64,12 +66,14 @@ domain_set:
 - telemetry.aws-language-servers.us-east-1.amazonaws.com
 - www.bing.com
 domain_suffix_set:
+- abacus.ai
 - account-paypal.info
 - account-paypal.net
 - account-paypal.org
 - accountpaypal.com
 - accountpaypal.net
 - accountpaypal.org
+- ai.azure.com
 - ai.com
 - ai21.com
 - ai21labs.com
@@ -83,6 +87,7 @@ domain_suffix_set:
 - anfutong.com
 - anfutong.com.cn
 - anthropic.com
+- antigravity.google
 - anyscale.com
 - api.microsoftapp.net
 - api.nvidia.com
@@ -98,6 +103,8 @@ domain_suffix_set:
 - azuredatabricks.net
 - bard.google.com
 - bardeen.ai
+- base44.app
+- base44.com
 - baseten.co
 - beautiful.ai
 - beibao.cn
@@ -167,8 +174,11 @@ domain_suffix_set:
 - cosine.sh
 - crixet.com
 - crusoe.ai
+- cursor-cdn.com
 - cursor.com
 - cursor.sh
+- cursorapi.com
+- cursorvm.com
 - d-id.com
 - deepgram.com
 - deepinfra.com
@@ -206,6 +216,7 @@ domain_suffix_set:
 - gemini.google.com
 - generativeai.google
 - genmo.ai
+- genspark.ai
 - getbraintree.com
 - githubcopilot.com
 - glean.com
@@ -245,12 +256,14 @@ domain_suffix_set:
 - intercomcdn.com
 - invideo.io
 - jasper.ai
+- jules.google
 - kaiber.ai
 - kilo.ai
 - kilocode.ai
-- kilocode.app
+- kiro.dev
 - krakenjs.com
 - krea.ai
+- labs.google
 - lambda.ai
 - langchain.com
 - langfuse.com
@@ -259,16 +272,19 @@ domain_suffix_set:
 - lemonsqueezy.com
 - leonardo.ai
 - lindy.ai
+- link.com
 - liquid.ai
 - litellm.ai
 - llamaindex.ai
 - lmnt.com
+- lmstudio.ai
 - loanbuilder.com
 - login-paypal.com
 - login-paypal.info
 - lovable.dev
 - lovart.ai
 - luma.ai
+- lumalabs.ai
 - magnific.com
 - manus.ai
 - manus.im
@@ -288,10 +304,14 @@ domain_suffix_set:
 - mywaytopay.net
 - nebius.com
 - nomic.ai
+- notebooklm.google
 - nousresearch.com
+- novita.ai
 - oaistatic.com
 - oaiusercontent.com
 - observeit.net
+- ollama.ai
+- ollama.com
 - openai.azure.com
 - openai.com
 - openaiapi-site.azureedge.net
@@ -480,6 +500,7 @@ domain_suffix_set:
 - playgroundai.com
 - plusai.com
 - poe.com
+- poecdn.net
 - portkey.ai
 - pp-soc.com
 - ppaypal.com
@@ -501,6 +522,7 @@ domain_suffix_set:
 - relay.app
 - remove.bg
 - replicate.com
+- replicate.delivery
 - replit.com
 - resemble.ai
 - respeecher.com
@@ -528,9 +550,11 @@ domain_suffix_set:
 - speechify.com
 - sslpaypal.org
 - stability.ai
+- stitch.withgoogle.com
 - stripe.com
 - sudowrite.com
 - suno.ai
+- suno.com
 - supermaven.com
 - sweep.dev
 - swiftbank.info
@@ -545,8 +569,10 @@ domain_suffix_set:
 - tavily.com
 - thepaypalshop.com
 - theshoppingexpresslane.net
+- thinkingmachines.ai
 - tldv.io
 - together.ai
+- together.xyz
 - topazlabs.com
 - trychroma.com
 - turbopuffer.com
@@ -574,6 +600,7 @@ domain_suffix_set:
 - wellsaidlabs.com
 - windsurf-telemetry.codeium.com
 - windsurf.ai
+- windsurf.com
 - wiremoneytoirelandwithxoomeasierandcheaper.com
 - wordtune.com
 - writer.com

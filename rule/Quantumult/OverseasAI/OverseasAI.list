@@ -5,15 +5,15 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-09-30 07:39:12
-# HOST: 48
-# HOST-SUFFIX: 528
+# UPDATED: 2026-10-01 13:35:31
+# HOST: 50
+# HOST-SUFFIX: 553
 # HOST-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
 # USER-AGENT: 1
-# TOTAL: 592
-HOST,ai.azure.com,OverseasAI
+# TOTAL: 619
+HOST,ai-gateway.vercel.sh,OverseasAI
 HOST,ai.google.dev,OverseasAI
 HOST,alkalimakersuite-pa.clients6.google.com,OverseasAI
 HOST,api.cloudflare.com,OverseasAI
@@ -33,8 +33,10 @@ HOST,cdn.usefathom.com,OverseasAI
 HOST,chat.openai.com.cdn.cloudflare.net,OverseasAI
 HOST,clau.de,OverseasAI
 HOST,client-telemetry.us-east-1.amazonaws.com,OverseasAI
+HOST,cloudcode-pa.googleapis.com,OverseasAI
 HOST,codewhisperer.us-east-1.amazonaws.com,OverseasAI
 HOST,copilot.microsoft.com,OverseasAI
+HOST,daily-cloudcode-pa.googleapis.com,OverseasAI
 HOST,desktop-release.codewhisperer.us-east-1.amazonaws.com,OverseasAI
 HOST,gateway.ai.cloudflare.com,OverseasAI
 HOST,gateway.bingviz.microsoft.net,OverseasAI
@@ -61,12 +63,14 @@ HOST,static.cloudflareinsights.com,OverseasAI
 HOST,sydney.bing.com,OverseasAI
 HOST,telemetry.aws-language-servers.us-east-1.amazonaws.com,OverseasAI
 HOST,www.bing.com,OverseasAI
+HOST-SUFFIX,abacus.ai,OverseasAI
 HOST-SUFFIX,account-paypal.info,OverseasAI
 HOST-SUFFIX,account-paypal.net,OverseasAI
 HOST-SUFFIX,account-paypal.org,OverseasAI
 HOST-SUFFIX,accountpaypal.com,OverseasAI
 HOST-SUFFIX,accountpaypal.net,OverseasAI
 HOST-SUFFIX,accountpaypal.org,OverseasAI
+HOST-SUFFIX,ai.azure.com,OverseasAI
 HOST-SUFFIX,ai.com,OverseasAI
 HOST-SUFFIX,ai21.com,OverseasAI
 HOST-SUFFIX,ai21labs.com,OverseasAI
@@ -80,6 +84,7 @@ HOST-SUFFIX,anfutong.cn,OverseasAI
 HOST-SUFFIX,anfutong.com,OverseasAI
 HOST-SUFFIX,anfutong.com.cn,OverseasAI
 HOST-SUFFIX,anthropic.com,OverseasAI
+HOST-SUFFIX,antigravity.google,OverseasAI
 HOST-SUFFIX,anyscale.com,OverseasAI
 HOST-SUFFIX,api.microsoftapp.net,OverseasAI
 HOST-SUFFIX,api.nvidia.com,OverseasAI
@@ -95,6 +100,8 @@ HOST-SUFFIX,auth0.com,OverseasAI
 HOST-SUFFIX,azuredatabricks.net,OverseasAI
 HOST-SUFFIX,bard.google.com,OverseasAI
 HOST-SUFFIX,bardeen.ai,OverseasAI
+HOST-SUFFIX,base44.app,OverseasAI
+HOST-SUFFIX,base44.com,OverseasAI
 HOST-SUFFIX,baseten.co,OverseasAI
 HOST-SUFFIX,beautiful.ai,OverseasAI
 HOST-SUFFIX,beibao.cn,OverseasAI
@@ -164,8 +171,11 @@ HOST-SUFFIX,coreweave.com,OverseasAI
 HOST-SUFFIX,cosine.sh,OverseasAI
 HOST-SUFFIX,crixet.com,OverseasAI
 HOST-SUFFIX,crusoe.ai,OverseasAI
+HOST-SUFFIX,cursor-cdn.com,OverseasAI
 HOST-SUFFIX,cursor.com,OverseasAI
 HOST-SUFFIX,cursor.sh,OverseasAI
+HOST-SUFFIX,cursorapi.com,OverseasAI
+HOST-SUFFIX,cursorvm.com,OverseasAI
 HOST-SUFFIX,d-id.com,OverseasAI
 HOST-SUFFIX,deepgram.com,OverseasAI
 HOST-SUFFIX,deepinfra.com,OverseasAI
@@ -203,6 +213,7 @@ HOST-SUFFIX,gemini.google,OverseasAI
 HOST-SUFFIX,gemini.google.com,OverseasAI
 HOST-SUFFIX,generativeai.google,OverseasAI
 HOST-SUFFIX,genmo.ai,OverseasAI
+HOST-SUFFIX,genspark.ai,OverseasAI
 HOST-SUFFIX,getbraintree.com,OverseasAI
 HOST-SUFFIX,githubcopilot.com,OverseasAI
 HOST-SUFFIX,glean.com,OverseasAI
@@ -242,12 +253,14 @@ HOST-SUFFIX,intercom.io,OverseasAI
 HOST-SUFFIX,intercomcdn.com,OverseasAI
 HOST-SUFFIX,invideo.io,OverseasAI
 HOST-SUFFIX,jasper.ai,OverseasAI
+HOST-SUFFIX,jules.google,OverseasAI
 HOST-SUFFIX,kaiber.ai,OverseasAI
 HOST-SUFFIX,kilo.ai,OverseasAI
 HOST-SUFFIX,kilocode.ai,OverseasAI
-HOST-SUFFIX,kilocode.app,OverseasAI
+HOST-SUFFIX,kiro.dev,OverseasAI
 HOST-SUFFIX,krakenjs.com,OverseasAI
 HOST-SUFFIX,krea.ai,OverseasAI
+HOST-SUFFIX,labs.google,OverseasAI
 HOST-SUFFIX,lambda.ai,OverseasAI
 HOST-SUFFIX,langchain.com,OverseasAI
 HOST-SUFFIX,langfuse.com,OverseasAI
@@ -256,16 +269,19 @@ HOST-SUFFIX,launchdarkly.com,OverseasAI
 HOST-SUFFIX,lemonsqueezy.com,OverseasAI
 HOST-SUFFIX,leonardo.ai,OverseasAI
 HOST-SUFFIX,lindy.ai,OverseasAI
+HOST-SUFFIX,link.com,OverseasAI
 HOST-SUFFIX,liquid.ai,OverseasAI
 HOST-SUFFIX,litellm.ai,OverseasAI
 HOST-SUFFIX,llamaindex.ai,OverseasAI
 HOST-SUFFIX,lmnt.com,OverseasAI
+HOST-SUFFIX,lmstudio.ai,OverseasAI
 HOST-SUFFIX,loanbuilder.com,OverseasAI
 HOST-SUFFIX,login-paypal.com,OverseasAI
 HOST-SUFFIX,login-paypal.info,OverseasAI
 HOST-SUFFIX,lovable.dev,OverseasAI
 HOST-SUFFIX,lovart.ai,OverseasAI
 HOST-SUFFIX,luma.ai,OverseasAI
+HOST-SUFFIX,lumalabs.ai,OverseasAI
 HOST-SUFFIX,magnific.com,OverseasAI
 HOST-SUFFIX,manus.ai,OverseasAI
 HOST-SUFFIX,manus.im,OverseasAI
@@ -285,10 +301,14 @@ HOST-SUFFIX,mywaytopay.info,OverseasAI
 HOST-SUFFIX,mywaytopay.net,OverseasAI
 HOST-SUFFIX,nebius.com,OverseasAI
 HOST-SUFFIX,nomic.ai,OverseasAI
+HOST-SUFFIX,notebooklm.google,OverseasAI
 HOST-SUFFIX,nousresearch.com,OverseasAI
+HOST-SUFFIX,novita.ai,OverseasAI
 HOST-SUFFIX,oaistatic.com,OverseasAI
 HOST-SUFFIX,oaiusercontent.com,OverseasAI
 HOST-SUFFIX,observeit.net,OverseasAI
+HOST-SUFFIX,ollama.ai,OverseasAI
+HOST-SUFFIX,ollama.com,OverseasAI
 HOST-SUFFIX,openai.azure.com,OverseasAI
 HOST-SUFFIX,openai.com,OverseasAI
 HOST-SUFFIX,openaiapi-site.azureedge.net,OverseasAI
@@ -477,6 +497,7 @@ HOST-SUFFIX,play.ht,OverseasAI
 HOST-SUFFIX,playgroundai.com,OverseasAI
 HOST-SUFFIX,plusai.com,OverseasAI
 HOST-SUFFIX,poe.com,OverseasAI
+HOST-SUFFIX,poecdn.net,OverseasAI
 HOST-SUFFIX,portkey.ai,OverseasAI
 HOST-SUFFIX,pp-soc.com,OverseasAI
 HOST-SUFFIX,ppaypal.com,OverseasAI
@@ -498,6 +519,7 @@ HOST-SUFFIX,reka.ai,OverseasAI
 HOST-SUFFIX,relay.app,OverseasAI
 HOST-SUFFIX,remove.bg,OverseasAI
 HOST-SUFFIX,replicate.com,OverseasAI
+HOST-SUFFIX,replicate.delivery,OverseasAI
 HOST-SUFFIX,replit.com,OverseasAI
 HOST-SUFFIX,resemble.ai,OverseasAI
 HOST-SUFFIX,respeecher.com,OverseasAI
@@ -525,9 +547,11 @@ HOST-SUFFIX,sourcery.ai,OverseasAI
 HOST-SUFFIX,speechify.com,OverseasAI
 HOST-SUFFIX,sslpaypal.org,OverseasAI
 HOST-SUFFIX,stability.ai,OverseasAI
+HOST-SUFFIX,stitch.withgoogle.com,OverseasAI
 HOST-SUFFIX,stripe.com,OverseasAI
 HOST-SUFFIX,sudowrite.com,OverseasAI
 HOST-SUFFIX,suno.ai,OverseasAI
+HOST-SUFFIX,suno.com,OverseasAI
 HOST-SUFFIX,supermaven.com,OverseasAI
 HOST-SUFFIX,sweep.dev,OverseasAI
 HOST-SUFFIX,swiftbank.info,OverseasAI
@@ -542,8 +566,10 @@ HOST-SUFFIX,tabnine.com,OverseasAI
 HOST-SUFFIX,tavily.com,OverseasAI
 HOST-SUFFIX,thepaypalshop.com,OverseasAI
 HOST-SUFFIX,theshoppingexpresslane.net,OverseasAI
+HOST-SUFFIX,thinkingmachines.ai,OverseasAI
 HOST-SUFFIX,tldv.io,OverseasAI
 HOST-SUFFIX,together.ai,OverseasAI
+HOST-SUFFIX,together.xyz,OverseasAI
 HOST-SUFFIX,topazlabs.com,OverseasAI
 HOST-SUFFIX,trychroma.com,OverseasAI
 HOST-SUFFIX,turbopuffer.com,OverseasAI
@@ -571,6 +597,7 @@ HOST-SUFFIX,wellsaid.io,OverseasAI
 HOST-SUFFIX,wellsaidlabs.com,OverseasAI
 HOST-SUFFIX,windsurf-telemetry.codeium.com,OverseasAI
 HOST-SUFFIX,windsurf.ai,OverseasAI
+HOST-SUFFIX,windsurf.com,OverseasAI
 HOST-SUFFIX,wiremoneytoirelandwithxoomeasierandcheaper.com,OverseasAI
 HOST-SUFFIX,wordtune.com,OverseasAI
 HOST-SUFFIX,writer.com,OverseasAI

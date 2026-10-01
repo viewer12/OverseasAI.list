@@ -47,16 +47,16 @@
 
 | 类别 | 代表服务 |
 | --- | --- |
-| **模型厂商 / 研究实验室** | OpenAI、Anthropic（Claude）、Google Gemini / DeepMind、xAI（Grok）、Cohere、Mistral、Groq、Cerebras、AI21、NVIDIA、Meta AI、Character.AI、Inflection、Reka、Writer、SambaNova、Aleph Alpha、Ai2、Liquid AI、Nous Research |
-| **推理 / GPU 云** | OpenRouter、Together、Fireworks、Replicate、Fal、DeepInfra、Runpod、Lambda、Modal、Baseten、Anyscale、CoreWeave、Nebius、Crusoe、Vast.ai、Hyperbolic |
+| **模型厂商 / 研究实验室** | OpenAI、Anthropic（Claude）、Google Gemini / DeepMind、xAI（Grok）、Cohere、Mistral、Groq、Cerebras、AI21、NVIDIA、Meta AI、Character.AI、Inflection、Reka、Writer、SambaNova、Aleph Alpha、Ai2、Liquid AI、Nous Research、Thinking Machines |
+| **推理 / GPU 云** | OpenRouter、Together、Fireworks、Replicate、Fal、DeepInfra、Runpod、Lambda、Modal、Baseten、Anyscale、CoreWeave、Nebius、Crusoe、Vast.ai、Hyperbolic、Novita、Vercel AI Gateway、Azure AI Foundry、Ollama、LM Studio |
 | **向量库 / Embedding** | Pinecone、Weaviate、Qdrant、Milvus、Chroma、turbopuffer、Voyage AI、Nomic |
 | **LLM 运维 / 网关 / 评测** | LangChain / LangSmith、LlamaIndex、Langfuse、Helicone、Braintrust、Arize、Portkey、LiteLLM、Weights & Biases |
-| **AI 应用 / 搜索 / 浏览器** | Perplexity、Poe、You.com、Phind、Pi、Dia、Gamma、Read AI、Granola、Sierra、Glean、Hebbia、Dust |
-| **AI 编程 / IDE / Agent** | GitHub Copilot、Cursor、Windsurf、Zed、Continue、Tabnine、Supermaven、Sourcegraph、Augment、Replit、v0、Lovable、Bolt、Devin / Cognition、Cline、Roo Code、Qodo、Warp、Factory、CodeRabbit、Greptile、Sourcery、Sweep、Cosine、Pieces、Tabby、Refact、Mintlify |
-| **生成式媒体 / 语音 / 视频** | Midjourney、Sora、Runway、Leonardo、Ideogram、Stability、HeyGen、Synthesia、D-ID、Black Forest Labs（FLUX）、Recraft、Magnific、Photoroom、Topaz、Captions、Hedra、Higgsfield、Viggle、Genmo、Pika、Luma |
+| **AI 应用 / 搜索 / 浏览器** | Perplexity、Poe、You.com、Phind、Pi、Dia、Gamma、Read AI、Granola、Sierra、Glean、Hebbia、Dust、Genspark、Abacus.AI、NotebookLM、Google Labs |
+| **AI 编程 / IDE / Agent** | GitHub Copilot、Cursor、Windsurf、Kiro、Google Antigravity / Jules / Stitch、Gemini CLI、Base44、Zed、Continue、Tabnine、Supermaven、Sourcegraph、Augment、Replit、v0、Lovable、Bolt、Devin / Cognition、Cline、Roo Code、Qodo、Warp、Factory、CodeRabbit、Greptile、Sourcery、Sweep、Cosine、Pieces、Tabby、Refact、Mintlify |
+| **生成式媒体 / 语音 / 视频** | Midjourney、Sora、Runway、Leonardo、Ideogram、Stability、HeyGen、Synthesia、D-ID、Black Forest Labs（FLUX）、Recraft、Magnific、Photoroom、Topaz、Captions、Hedra、Higgsfield、Viggle、Genmo、Pika、Luma、Suno |
 | **语音 / TTS / STT** | ElevenLabs、Deepgram、AssemblyAI、Hume、Cartesia、Resemble、WellSaid、Speechify、LMNT、Murf、Play.ht |
 | **Agent / 抓取 / 数据 API** | Firecrawl、Tavily、Exa、Apify、Bright Data、Browserbase、Browserless、ScrapingBee、ZenRows、Diffbot、Serper、SerpApi、Lindy、Relay、Bardeen |
-| **认证 / 支付（AI 相关）** | Stripe、PayPal、Paddle、Chargebee、FastSpring、Lemon Squeezy、Checkout.com、SheerID、ID.me |
+| **认证 / 支付（AI 相关）** | Stripe（含 Link）、PayPal、Paddle、Chargebee、FastSpring、Lemon Squeezy、Checkout.com、SheerID、ID.me |
 
 > 完整清单见 [`rule/Surge/OverseasAI/OverseasAI.list`](./rule/Surge/OverseasAI/OverseasAI.list)。
 
