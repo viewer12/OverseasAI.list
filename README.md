@@ -136,15 +136,17 @@ rules:
 
 | 类型 | 数量 |
 | --- | ---: |
-| `DOMAIN` | 48 |
-| `DOMAIN-SUFFIX` | 528 |
+| `DOMAIN` | 50 |
+| `DOMAIN-SUFFIX` | 553 |
 | `DOMAIN-KEYWORD` | 11 |
 | `IP-CIDR` | 2 |
 | `IP-ASN` | 2 |
 | `USER-AGENT` | 1 |
-| **合计** | **592** |
+| **合计** | **619** |
 
 > 数量随每日同步变化，以规则文件头部的 `# TOTAL` 为准。
+>
+> Clash（mihomo）不支持 `USER-AGENT` 规则，生成 Clash 规则集时会自动跳过；sing-box 规则集同样跳过 `IP-ASN` 与 `USER-AGENT`。
 
 ## 📁 文件结构
 

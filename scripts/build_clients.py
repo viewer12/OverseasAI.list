@@ -20,6 +20,19 @@ RULE_ORDER = {
     "USER-AGENT": 8,
 }
 
+# mihomo 规则类型白名单（不支持 USER-AGENT）。
+# 参考：https://wiki.metacubex.one/config/rules/
+CLASH_SUPPORTED_TYPES = {
+    "DOMAIN",
+    "DOMAIN-SUFFIX",
+    "DOMAIN-KEYWORD",
+    "DOMAIN-WILDCARD",
+    "DOMAIN-REGEX",
+    "IP-CIDR",
+    "IP-CIDR6",
+    "IP-ASN",
+}
+
 
 def parse_rules(path: Path) -> tuple[list[str], list[str]]:
     header: list[str] = []
@@ -277,13 +290,31 @@ def main() -> None:
     surge_header = build_header("OverseasAI", meta, counts)
 
     # Write Surge-like lists
-    for platform in ["Clash", "Loon", "Shadowrocket"]:
+    for platform in ["Loon", "Shadowrocket"]:
         out_dir = repo_root / "rule" / platform / "OverseasAI"
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / "OverseasAI.list"
         out_path.write_text(
             "\n".join(surge_header) + "\n" + "\n".join(rules_sorted) + "\n"
         )
+
+    clash_rules = [
+        r for r in rules_sorted if r.split(",", 1)[0] in CLASH_SUPPORTED_TYPES
+    ]
+    clash_skipped = Counter(
+        r.split(",", 1)[0]
+        for r in rules_sorted
+        if r.split(",", 1)[0] not in CLASH_SUPPORTED_TYPES
+    )
+    for rule_type, count in clash_skipped.items():
+        print(f"  [Clash] Skipped {count} {rule_type} rule(s) (unsupported by mihomo)")
+    clash_counts = Counter(rule.split(",", 1)[0] for rule in clash_rules)
+    clash_header = build_header("OverseasAI", meta, clash_counts)
+    clash_dir = repo_root / "rule" / "Clash" / "OverseasAI"
+    clash_dir.mkdir(parents=True, exist_ok=True)
+    (clash_dir / "OverseasAI.list").write_text(
+        "\n".join(clash_header) + "\n" + "\n".join(clash_rules) + "\n"
+    )
 
     # QuantumultX transform
     qx_rules = []
