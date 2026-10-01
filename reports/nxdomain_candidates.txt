@@ -1,4 +1,3 @@
 gateway.bingviz.microsoft.net
-kilocode.app
 paypal-referral.com
 paypal.info
