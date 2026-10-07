@@ -1,9 +1,9 @@
-# NXDOMAIN Report (2026-10-06 08:16:17Z)
+# NXDOMAIN Report (2026-10-07 07:51:06Z)
 
 Checked domains: 601
-OK: 549
-NXDOMAIN: 2
-UNKNOWN: 50
+OK: 540
+NXDOMAIN: 3
+UNKNOWN: 58
 
 Threshold: 3 consecutive NXDOMAIN
 
@@ -13,9 +13,9 @@ Threshold: 3 consecutive NXDOMAIN
 - paypal.info
 
 ## Unknowns
-- paypal.info
+- qpoe.com
 - simility.com
-- swiftfinancial.com
+- swiftfinancial.info
 - swiftfinancial.net
 - sydney.bing.com
 - synthesia.io
@@ -32,12 +32,16 @@ Threshold: 3 consecutive NXDOMAIN
 - trychroma.com
 - turbopuffer.com
 - turn.livekit.cloud
+- udio.com
 - v0.app
+- v0.dev
+- vast.ai
+- venmo-touch.com
 - venmo.com
 - venmo.info
 - venmo.net
 - venmo.org
-- venmo.s3.amazonaws.com
+- viggle.ai
 - voice.ai
 - voyageai.com
 - wandb.ai
@@ -47,19 +51,23 @@ Threshold: 3 consecutive NXDOMAIN
 - weaviate.io
 - webmoneyinfo.com
 - wellsaid.io
+- wellsaidlabs.com
 - windsurf-telemetry.codeium.com
 - windsurf.ai
+- windsurf.com
 - wiremoneytoirelandwithxoomeasierandcheaper.com
 - wordtune.com
 - writer.com
-- writesonic.com
 - www-paypal.info
 - www-paypal.us
+- www.bing.com
 - wwwxoom.com
+- x.ai
 - xn--bnq297cix3a.cn
-- xoom.com
+- xoom-experience.com
+- xoom.io
 - xoom.net.cn
 - xoom.us
-- xoomcom.com
+- you.com
 - zed.dev
 - zenrows.com
