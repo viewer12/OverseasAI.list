@@ -1,4 +1,4 @@
-# NXDOMAIN Report (2026-10-07 07:51:06Z)
+# NXDOMAIN Report (2026-10-08 08:08:00Z)
 
 Checked domains: 601
 OK: 540
@@ -13,19 +13,19 @@ Threshold: 3 consecutive NXDOMAIN
 - paypal.info
 
 ## Unknowns
-- qpoe.com
 - simility.com
+- swiftbank.info
+- swiftbank.us
+- swiftcapital.com
+- swiftfinancial.com
 - swiftfinancial.info
 - swiftfinancial.net
-- sydney.bing.com
-- synthesia.io
 - tabbyml.com
-- tabnine.com
 - tavily.com
 - telemetry.aws-language-servers.us-east-1.amazonaws.com
 - thepaypalshop.com
 - theshoppingexpresslane.net
-- tldv.io
+- thinkingmachines.ai
 - together.ai
 - together.xyz
 - topazlabs.com
@@ -34,13 +34,13 @@ Threshold: 3 consecutive NXDOMAIN
 - turn.livekit.cloud
 - udio.com
 - v0.app
-- v0.dev
 - vast.ai
 - venmo-touch.com
 - venmo.com
 - venmo.info
 - venmo.net
 - venmo.org
+- venmo.s3.amazonaws.com
 - viggle.ai
 - voice.ai
 - voyageai.com
@@ -52,7 +52,6 @@ Threshold: 3 consecutive NXDOMAIN
 - webmoneyinfo.com
 - wellsaid.io
 - wellsaidlabs.com
-- windsurf-telemetry.codeium.com
 - windsurf.ai
 - windsurf.com
 - wiremoneytoirelandwithxoomeasierandcheaper.com
@@ -63,11 +62,12 @@ Threshold: 3 consecutive NXDOMAIN
 - www.bing.com
 - wwwxoom.com
 - x.ai
-- xn--bnq297cix3a.cn
 - xoom-experience.com
+- xoom.com
 - xoom.io
 - xoom.net.cn
 - xoom.us
+- xoomcom.com
 - you.com
 - zed.dev
 - zenrows.com
