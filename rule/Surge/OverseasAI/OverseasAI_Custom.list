@@ -10,6 +10,7 @@ DOMAIN,api.jetbrains.ai
 DOMAIN,api.ngc.nvidia.com
 DOMAIN,api.nvidia.com
 DOMAIN,auth.grazie.ai
+DOMAIN,auth.meta.com
 DOMAIN,aws-language-servers.us-east-1.amazonaws.com
 DOMAIN,aws-toolkit-language-servers.amazonaws.com
 DOMAIN,build.nvidia.com
@@ -19,6 +20,7 @@ DOMAIN,cloudaicompanion.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,coderabbit.gallery.vsassets.io
 DOMAIN,codewhisperer.us-east-1.amazonaws.com
+DOMAIN,content-firebaseappcheck.googleapis.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot-telemetry-service.githubusercontent.com
 DOMAIN,copilot-telemetry.githubusercontent.com
@@ -26,6 +28,7 @@ DOMAIN,copilot-workspace.githubnext.com
 DOMAIN,copilotprodattachments.blob.core.windows.net
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,desktop-release.codewhisperer.us-east-1.amazonaws.com
+DOMAIN,firebaseappcheck.googleapis.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,geller-pa.googleapis.com
 DOMAIN,gemini.gstatic.com
@@ -33,18 +36,23 @@ DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN,grazie.aws.intellij.net
 DOMAIN,grok.x.com
+DOMAIN,identitytoolkit.googleapis.com
 DOMAIN,idetoolkits-hostedfiles.amazonaws.com
 DOMAIN,idetoolkits.amazonwebservices.com
 DOMAIN,integrate.api.nvidia.com
 DOMAIN,labstailwind.pa.googleapis.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
+DOMAIN,pay.google.com
 DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN,pplx-res.cloudinary.com
 DOMAIN,q.us-east-1.amazonaws.com
 DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,securetoken.googleapis.com
 DOMAIN,specs.q.us-east-1.amazonaws.com
 DOMAIN,telemetry.aws-language-servers.us-east-1.amazonaws.com
+DOMAIN,us-central1-xi-labs.cloudfunctions.net
+DOMAIN,waa-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,abacus.ai
 DOMAIN-SUFFIX,agentclientprotocol.com
@@ -70,6 +78,7 @@ DOMAIN-SUFFIX,artbreeder.com
 DOMAIN-SUFFIX,assemblyai.com
 DOMAIN-SUFFIX,augment.dev
 DOMAIN-SUFFIX,augmentcode.com
+DOMAIN-SUFFIX,awswaf.com
 DOMAIN-SUFFIX,azuredatabricks.net
 DOMAIN-SUFFIX,bardeen.ai
 DOMAIN-SUFFIX,base44.app
@@ -89,6 +98,7 @@ DOMAIN-SUFFIX,browserless.io
 DOMAIN-SUFFIX,business.gemini.google
 DOMAIN-SUFFIX,captions.ai
 DOMAIN-SUFFIX,cartesia.ai
+DOMAIN-SUFFIX,characterai.io
 DOMAIN-SUFFIX,chargebee.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.site
@@ -104,6 +114,7 @@ DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,clawhub.ai
+DOMAIN-SUFFIX,clerk.com
 DOMAIN-SUFFIX,cline.bot
 DOMAIN-SUFFIX,cloud.databricks.com
 DOMAIN-SUFFIX,codeium.com
@@ -180,10 +191,12 @@ DOMAIN-SUFFIX,groksupport.com
 DOMAIN-SUFFIX,groktpcontent.com
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,h2o.ai
+DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,hebbia.ai
 DOMAIN-SUFFIX,hebbia.com
 DOMAIN-SUFFIX,hedra.com
 DOMAIN-SUFFIX,helicone.ai
+DOMAIN-SUFFIX,heygen.ai
 DOMAIN-SUFFIX,heygen.com
 DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,higgsfield.ai
@@ -286,10 +299,13 @@ DOMAIN-SUFFIX,plusai.com
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,poke.com
 DOMAIN-SUFFIX,portkey.ai
+DOMAIN-SUFFIX,prelude.dev
+DOMAIN-SUFFIX,px-cloud.net
 DOMAIN-SUFFIX,qdrant.tech
 DOMAIN-SUFFIX,qodo.ai
 DOMAIN-SUFFIX,quillbot.com
 DOMAIN-SUFFIX,read.ai
+DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,recraft.ai
 DOMAIN-SUFFIX,refact.ai
 DOMAIN-SUFFIX,reka.ai
@@ -302,6 +318,7 @@ DOMAIN-SUFFIX,resemble.ai
 DOMAIN-SUFFIX,respeecher.com
 DOMAIN-SUFFIX,roocode.com
 DOMAIN-SUFFIX,runpod.io
+DOMAIN-SUFFIX,runway.com
 DOMAIN-SUFFIX,runwayml.com
 DOMAIN-SUFFIX,rytr.me
 DOMAIN-SUFFIX,sambanova.ai
@@ -321,6 +338,7 @@ DOMAIN-SUFFIX,speechify.com
 DOMAIN-SUFFIX,spicywriter.com
 DOMAIN-SUFFIX,stability.ai
 DOMAIN-SUFFIX,stitch.withgoogle.com
+DOMAIN-SUFFIX,stytch.com
 DOMAIN-SUFFIX,sudowrite.com
 DOMAIN-SUFFIX,suno.com
 DOMAIN-SUFFIX,supermaven.com
@@ -359,7 +377,9 @@ DOMAIN-SUFFIX,windsurf-telemetry.codeium.com
 DOMAIN-SUFFIX,windsurf.ai
 DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,withpersona.com
 DOMAIN-SUFFIX,wordtune.com
+DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,writer.com
 DOMAIN-SUFFIX,writesonic.com
 DOMAIN-SUFFIX,you.com

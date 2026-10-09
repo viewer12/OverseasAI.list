@@ -150,6 +150,7 @@ rules:
 
 - **节点地区**：OpenAI、Anthropic、Google Gemini 等不向中国大陆、香港、澳门提供服务，`AI` 策略组请只放美国 / 日本 / 新加坡 / 台湾等受支持地区的节点，并尽量固定同一个节点，避免频繁切换 IP 触发风控。
 - **规则顺序**：本规则需放在 `GEOIP,CN`、`FINAL` / `MATCH`，以及其他 Google / Microsoft / Apple 等宽泛规则**之前**，否则会被提前匹配。
+- **登录验证**：规则包含 WorkOS / Clerk / Stytch / Firebase 等登录服务，以及 hCaptcha、Arkose、Turnstile、AWS WAF、HUMAN 等人机验证与风控域名，登录 / 注册时验证码和 AI 服务走同一节点，避免因 IP 不一致被反复要求验证或直接判定为风险。
 - **付款与订阅**：规则已包含 Stripe、PayPal、Paddle 等支付域名，订阅时付款页面会和 AI 服务走同一节点，减少因 IP 不一致导致的拒付或验证。
 - **更新频率**：规则每天自动更新，客户端更新间隔设为 1 天（86400 秒）即可。
 - **Surge 的两个版本**：一般用 `OverseasAI.list`；如需 IP 规则在 DNS 解析后也参与匹配，改用 `OverseasAI_Resolve.list`。
@@ -169,7 +170,7 @@ rules:
 | **语音 / TTS / STT** | ElevenLabs、Deepgram、AssemblyAI、Hume、Cartesia、Resemble、WellSaid、Speechify、LMNT、Murf、Play.ht |
 | **个人 Agent / 自动化** | Meta Muse、OpenClaw / ClawHub、MyClaw、Hermes Agent（Nous Research）、Manus（含 Cue）、Genspark、Lindy、Vellum、Simular、Poke、Slashy、Eigent、MindStudio、Composio |
 | **Agent / 抓取 / 数据 API** | Firecrawl、Tavily、Exa、Apify、Bright Data、Browserbase、Browserless、ScrapingBee、ZenRows、Diffbot、Serper、SerpApi、Lindy、Relay、Bardeen |
-| **认证 / 支付（AI 相关）** | Stripe（含 Link）、PayPal（含 Braintree / Venmo）、Paddle、Chargebee、FastSpring、Lemon Squeezy、Checkout.com、SheerID、ID.me |
+| **认证 / 人机验证 / 风控 / 支付（AI 相关）** | WorkOS、Clerk、Stytch、Firebase Auth、hCaptcha、reCAPTCHA（recaptcha.net）、Arkose Labs、Cloudflare Turnstile、AWS WAF、HUMAN（PerimeterX）、Prelude、Persona、Stripe（含 Link）、PayPal（含 Braintree / Venmo）、Paddle、Chargebee、FastSpring、Lemon Squeezy、Checkout.com、SheerID、ID.me |
 
 > 完整清单见 [`rule/Surge/OverseasAI/OverseasAI.list`](./rule/Surge/OverseasAI/OverseasAI.list)。
 
@@ -233,6 +234,7 @@ python scripts/check_domains.py
 - **排除大陆直连**：默认不收录大陆通常可直接访问的大陆系 AI 服务（如 DeepSeek、Kimi、智谱、MiniMax 等）。
 - **边界清晰**：尽量使用精确域名 / 后缀，避免 `notion.so`、`brave.com`、`freepik.com` 这类大量承载非 AI 流量的过宽域名。
 - **支付域名从严**：收录 Stripe、PayPal 等支付域名，是为了让订阅付款与 AI 服务走同一出口、避免 IP 不一致触发风控；只收付款流程实际访问的域名，不收防仿冒注册、贷款、汇款等无关业务域名。
+- **风控依赖同出口**：AI 服务登录 / 注册 / 付款时调用的第三方登录、人机验证、风控与身份核验服务，只要 IP 不一致就可能触发风控，因此一并收录；仅收这些服务的专用域名，不收 `accounts.google.com`、`www.google.com` 这类通用入口。
 - **归属可核实**：新增前核实域名确实归属该公司，并验证可解析；归属存疑、已停服或被收购整合的服务会被标注或排除。
 
 ## ❓ 常见问题
