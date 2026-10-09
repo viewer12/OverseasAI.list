@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-09 10:51:48
-# domain_set: 72
-# domain_suffix_set: 366
+# UPDATED: 2026-10-09 10:58:43
+# domain_set: 76
+# domain_suffix_set: 374
 # domain_keyword_set: 11
 # ip_cidr_set: 2
 # asn_set: 2
-# TOTAL: 453
+# TOTAL: 465
 no_resolve: true
 domain_set:
 - ai-gateway.vercel.sh
@@ -19,6 +19,7 @@ domain_set:
 - aicode.googleapis.com
 - aida.googleapis.com
 - aisandbox-pa.googleapis.com
+- alkalicore-pa.clients6.google.com
 - alkalimakersuite-pa.clients6.google.com
 - antigravity-pa.googleapis.com
 - antigravity.googleapis.com
@@ -56,6 +57,8 @@ domain_set:
 - gateway.bingviz.microsoftapp.net
 - geller-pa.googleapis.com
 - gemini.gstatic.com
+- geminiweb-pa.clients.google.com
+- geminiweb-pa.clients6.google.com
 - generativelanguage.googleapis.com
 - grazie.aws.intellij.net
 - grok.x.com
@@ -85,6 +88,7 @@ domain_set:
 - static.cloudflareinsights.com
 - sydney.bing.com
 - telemetry.aws-language-servers.us-east-1.amazonaws.com
+- webchannel-alkalimakersuite-pa.clients6.google.com
 - www.bing.com
 domain_suffix_set:
 - abacus.ai
@@ -95,6 +99,7 @@ domain_suffix_set:
 - ai21.com
 - ai21labs.com
 - aiplatform.googleapis.com
+- aistudio.google.com
 - aleph-alpha.com
 - algolia.net
 - allenai.org
@@ -226,6 +231,7 @@ domain_suffix_set:
 - fireworks.ai
 - fliki.ai
 - flow.google
+- flow.google.com
 - gamma.app
 - gcp.databricks.com
 - gemini.google
@@ -236,7 +242,6 @@ domain_suffix_set:
 - getbraintree.com
 - githubcopilot.com
 - glean.com
-- google.com
 - grammarly.com
 - granola.ai
 - granola.so
@@ -274,12 +279,14 @@ domain_suffix_set:
 - jasper.ai
 - jetbrains.ai
 - jules.google
+- jules.google.com
 - kaiber.ai
 - kilo.ai
 - kilocode.ai
 - kiro.dev
 - krea.ai
 - labs.google
+- labs.google.com
 - lambda.ai
 - langchain.com
 - langfuse.com
@@ -319,7 +326,9 @@ domain_suffix_set:
 - nebius.com
 - nomic.ai
 - notebook.google
+- notebook.google.com
 - notebooklm.google
+- notebooklm.google.com
 - notegpt.io
 - nousresearch.com
 - novelai.net
@@ -330,7 +339,9 @@ domain_suffix_set:
 - observeit.net
 - ollama.ai
 - ollama.com
+- one.google.com
 - opal.google
+- opal.google.com
 - openai.azure.com
 - openai.com
 - openaiapi-site.azureedge.net
@@ -345,6 +356,7 @@ domain_suffix_set:
 - opncd.ai
 - otter.ai
 - paddle.com
+- payments.google.com
 - paypal.com
 - paypal.me
 - paypalobjects.com

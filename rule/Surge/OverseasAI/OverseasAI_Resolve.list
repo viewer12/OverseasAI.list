@@ -5,18 +5,19 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-09 10:51:48
-# DOMAIN: 72
-# DOMAIN-SUFFIX: 366
+# UPDATED: 2026-10-09 10:58:43
+# DOMAIN: 76
+# DOMAIN-SUFFIX: 374
 # DOMAIN-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 453
+# TOTAL: 465
 DOMAIN,ai-gateway.vercel.sh
 DOMAIN,ai.google.dev
 DOMAIN,aicode.googleapis.com
 DOMAIN,aida.googleapis.com
 DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,antigravity-pa.googleapis.com
 DOMAIN,antigravity.googleapis.com
@@ -54,6 +55,8 @@ DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,gateway.bingviz.microsoftapp.net
 DOMAIN,geller-pa.googleapis.com
 DOMAIN,gemini.gstatic.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,grazie.aws.intellij.net
 DOMAIN,grok.x.com
@@ -83,6 +86,7 @@ DOMAIN,specs.q.us-east-1.amazonaws.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN,sydney.bing.com
 DOMAIN,telemetry.aws-language-servers.us-east-1.amazonaws.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN,www.bing.com
 DOMAIN-SUFFIX,abacus.ai
 DOMAIN-SUFFIX,agentclientprotocol.com
@@ -92,6 +96,7 @@ DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,ai21.com
 DOMAIN-SUFFIX,ai21labs.com
 DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,aleph-alpha.com
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,allenai.org
@@ -223,6 +228,7 @@ DOMAIN-SUFFIX,fireflies.ai
 DOMAIN-SUFFIX,fireworks.ai
 DOMAIN-SUFFIX,fliki.ai
 DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
 DOMAIN-SUFFIX,gamma.app
 DOMAIN-SUFFIX,gcp.databricks.com
 DOMAIN-SUFFIX,gemini.google
@@ -233,7 +239,6 @@ DOMAIN-SUFFIX,genspark.ai
 DOMAIN-SUFFIX,getbraintree.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,glean.com
-DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,granola.ai
 DOMAIN-SUFFIX,granola.so
@@ -271,12 +276,14 @@ DOMAIN-SUFFIX,invideo.io
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,jules.google.com
 DOMAIN-SUFFIX,kaiber.ai
 DOMAIN-SUFFIX,kilo.ai
 DOMAIN-SUFFIX,kilocode.ai
 DOMAIN-SUFFIX,kiro.dev
 DOMAIN-SUFFIX,krea.ai
 DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,labs.google.com
 DOMAIN-SUFFIX,lambda.ai
 DOMAIN-SUFFIX,langchain.com
 DOMAIN-SUFFIX,langfuse.com
@@ -316,7 +323,9 @@ DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,nebius.com
 DOMAIN-SUFFIX,nomic.ai
 DOMAIN-SUFFIX,notebook.google
+DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notegpt.io
 DOMAIN-SUFFIX,nousresearch.com
 DOMAIN-SUFFIX,novelai.net
@@ -327,7 +336,9 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,ollama.ai
 DOMAIN-SUFFIX,ollama.com
+DOMAIN-SUFFIX,one.google.com
 DOMAIN-SUFFIX,opal.google
+DOMAIN-SUFFIX,opal.google.com
 DOMAIN-SUFFIX,openai.azure.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
@@ -342,6 +353,7 @@ DOMAIN-SUFFIX,openspec.dev
 DOMAIN-SUFFIX,opncd.ai
 DOMAIN-SUFFIX,otter.ai
 DOMAIN-SUFFIX,paddle.com
+DOMAIN-SUFFIX,payments.google.com
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypalobjects.com
