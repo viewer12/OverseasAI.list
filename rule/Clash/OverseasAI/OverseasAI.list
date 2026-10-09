@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-09 03:00:42
+# UPDATED: 2026-10-09 11:04:51
 # DOMAIN: 76
-# DOMAIN-SUFFIX: 374
+# DOMAIN-SUFFIX: 384
 # DOMAIN-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 465
+# TOTAL: 475
 DOMAIN,ai-gateway.vercel.sh
 DOMAIN,ai.google.dev
 DOMAIN,aicode.googleapis.com
@@ -176,6 +176,7 @@ DOMAIN-SUFFIX,colossyan.com
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,comfyci.org
 DOMAIN-SUFFIX,comfyregistry.org
+DOMAIN-SUFFIX,composio.dev
 DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,continue.dev
 DOMAIN-SUFFIX,copilot-stg.com
@@ -188,6 +189,7 @@ DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,crewai.com
 DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,crusoe.ai
+DOMAIN-SUFFIX,cue.im
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
@@ -213,6 +215,7 @@ DOMAIN-SUFFIX,dreamstudio.ai
 DOMAIN-SUFFIX,duck.ai
 DOMAIN-SUFFIX,dust.tt
 DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-SUFFIX,eigent.ai
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,events.statsigapi.net
@@ -270,6 +273,7 @@ DOMAIN-SUFFIX,id.me
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,ideogram.ai
 DOMAIN-SUFFIX,inflection.ai
+DOMAIN-SUFFIX,interaction.co
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,invideo.io
@@ -312,6 +316,7 @@ DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,milvus.io
+DOMAIN-SUFFIX,mindstudio.ai
 DOMAIN-SUFFIX,mintlify.com
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,ml.cloud.ibm.com
@@ -320,6 +325,7 @@ DOMAIN-SUFFIX,models.dev
 DOMAIN-SUFFIX,mozilla.ai
 DOMAIN-SUFFIX,murf.ai
 DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,myclaw.ai
 DOMAIN-SUFFIX,nebius.com
 DOMAIN-SUFFIX,nomic.ai
 DOMAIN-SUFFIX,notebook.google
@@ -372,6 +378,7 @@ DOMAIN-SUFFIX,playgroundai.com
 DOMAIN-SUFFIX,plusai.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
+DOMAIN-SUFFIX,poke.com
 DOMAIN-SUFFIX,portkey.ai
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
@@ -403,6 +410,8 @@ DOMAIN-SUFFIX,serper.dev
 DOMAIN-SUFFIX,sheerid.com
 DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,sierra.ai
+DOMAIN-SUFFIX,simular.ai
+DOMAIN-SUFFIX,slashy.com
 DOMAIN-SUFFIX,smallcloud.ai
 DOMAIN-SUFFIX,snowflakecomputing.com
 DOMAIN-SUFFIX,sora.com
@@ -437,6 +446,7 @@ DOMAIN-SUFFIX,udio.com
 DOMAIN-SUFFIX,v0.app
 DOMAIN-SUFFIX,v0.dev
 DOMAIN-SUFFIX,vast.ai
+DOMAIN-SUFFIX,vellum.ai
 DOMAIN-SUFFIX,venmo.com
 DOMAIN-SUFFIX,viggle.ai
 DOMAIN-SUFFIX,voice.ai

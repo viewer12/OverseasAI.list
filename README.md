@@ -5,7 +5,6 @@
 **一份持续维护、覆盖全面的海外 AI 服务分流规则，适用于 Surge / Clash / sing-box 等主流规则客户端。**
 
 [![License](https://img.shields.io/github/license/viewer12/OverseasAI.list?color=blue)](./LICENSE)
-[![Rules](https://img.shields.io/badge/rules-592-success)](./rule/Surge/OverseasAI/OverseasAI.list)
 [![Daily Sync](https://img.shields.io/github/actions/workflow/status/viewer12/OverseasAI.list/rules-sync.yml?label=daily%20sync)](./.github/workflows/rules-sync.yml)
 [![Last Commit](https://img.shields.io/github/last-commit/viewer12/OverseasAI.list)](https://github.com/viewer12/OverseasAI.list/commits/main)
 [![Stars](https://img.shields.io/github/stars/viewer12/OverseasAI.list?style=flat)](https://github.com/viewer12/OverseasAI.list/stargazers)
@@ -32,16 +31,129 @@
 
 ## 📑 目录
 
-- [收录范围](#-收录范围)
 - [快速开始](#-快速开始)
 - [订阅地址一览](#-订阅地址一览)
-- [规则统计](#-规则统计)
+- [使用建议](#-使用建议)
+- [收录范围](#-收录范围)
 - [文件结构](#-文件结构)
 - [工作原理与自动化](#-工作原理与自动化)
 - [如何贡献](#-如何贡献)
 - [收录原则](#-收录原则)
 - [常见问题](#-常见问题)
 - [致谢与许可](#-致谢与许可)
+
+## 🚀 快速开始
+
+> 三步即可用：① 选一个**支持 AI 服务的地区节点**（推荐美国 / 日本 / 新加坡，避开香港）建一个 `AI` 策略组；② 复制下方对应客户端的配置；③ 把这条规则放在 **GEOIP / FINAL / MATCH 以及其他宽泛的 Google / Microsoft 规则之前**。
+>
+> 下面示例中的 `AI` 均为策略组名，请替换成你自己的组名（如 `PROXY`、`🚀 节点选择`）。
+
+### Surge
+
+```ini
+[Proxy Group]
+AI = select, 美国节点, 日本节点
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI.list,AI
+```
+
+### Clash / Mihomo（Clash Verge、FlClash、OpenClash 等）
+
+```yaml
+rule-providers:
+  OverseasAI:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+    path: ./ruleset/OverseasAI.list
+
+rules:
+  - RULE-SET,OverseasAI,AI
+  # ……其余规则
+  - MATCH,DIRECT
+```
+
+### Shadowrocket
+
+```ini
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Shadowrocket/OverseasAI/OverseasAI.list,AI
+```
+
+### Loon
+
+```ini
+[Remote Rule]
+https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Loon/OverseasAI/OverseasAI.list, policy=AI, tag=OverseasAI, enabled=true
+```
+
+### Quantumult X
+
+```ini
+[filter_remote]
+https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/QuantumultX/OverseasAI/OverseasAI.list, tag=OverseasAI, force-policy=AI, update-interval=86400, opt-parser=false, enabled=true
+```
+
+> 规则文件内自带的策略名为 `OverseasAI`，`force-policy` 会把它覆盖为你的策略组，务必填写。
+
+### sing-box（1.11+）
+
+```json
+{
+  "route": {
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "overseas-ai",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Singbox/OverseasAI/OverseasAI.srs",
+        "download_detour": "AI"
+      }
+    ],
+    "rules": [
+      { "rule_set": "overseas-ai", "action": "route", "outbound": "AI" }
+    ]
+  }
+}
+```
+
+### Egern
+
+```yaml
+rules:
+  - rule_set:
+      match: https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Egern/OverseasAI/OverseasAI.yaml
+      policy: AI
+```
+
+## 🔗 订阅地址一览
+
+| 客户端 | GitHub 原始地址 | jsDelivr 镜像（国内更快） |
+| --- | --- | --- |
+| Surge | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI.list) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Surge/OverseasAI/OverseasAI.list) |
+| Surge（IP 规则不带 `no-resolve`） | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI_Resolve.list) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Surge/OverseasAI/OverseasAI_Resolve.list) |
+| Clash / Mihomo | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Clash/OverseasAI/OverseasAI.list) |
+| Shadowrocket | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Shadowrocket/OverseasAI/OverseasAI.list) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Shadowrocket/OverseasAI/OverseasAI.list) |
+| Loon | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Loon/OverseasAI/OverseasAI.list) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Loon/OverseasAI/OverseasAI.list) |
+| Quantumult X | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/QuantumultX/OverseasAI/OverseasAI.list) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/QuantumultX/OverseasAI/OverseasAI.list) |
+| Quantumult | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Quantumult/OverseasAI/OverseasAI.list) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Quantumult/OverseasAI/OverseasAI.list) |
+| sing-box（`.srs` 二进制） | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Singbox/OverseasAI/OverseasAI.srs) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Singbox/OverseasAI/OverseasAI.srs) |
+| sing-box（`.json` 源格式） | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Singbox/OverseasAI/OverseasAI.json) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Singbox/OverseasAI/OverseasAI.json) |
+| Egern | [链接](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Egern/OverseasAI/OverseasAI.yaml) | [链接](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Egern/OverseasAI/OverseasAI.yaml) |
+
+> 复制链接：在链接上右键 →「复制链接地址」。jsDelivr 有最长约 12 小时的缓存，追求最新请用 GitHub 原始地址。
+
+## 💡 使用建议
+
+- **节点地区**：OpenAI、Anthropic、Google Gemini 等不向中国大陆、香港、澳门提供服务，`AI` 策略组请只放美国 / 日本 / 新加坡 / 台湾等受支持地区的节点，并尽量固定同一个节点，避免频繁切换 IP 触发风控。
+- **规则顺序**：本规则需放在 `GEOIP,CN`、`FINAL` / `MATCH`，以及其他 Google / Microsoft / Apple 等宽泛规则**之前**，否则会被提前匹配。
+- **付款与订阅**：规则已包含 Stripe、PayPal、Paddle 等支付域名，订阅时付款页面会和 AI 服务走同一节点，减少因 IP 不一致导致的拒付或验证。
+- **更新频率**：规则每天自动更新，客户端更新间隔设为 1 天（86400 秒）即可。
+- **Surge 的两个版本**：一般用 `OverseasAI.list`；如需 IP 规则在 DNS 解析后也参与匹配，改用 `OverseasAI_Resolve.list`。
+- **客户端差异**：Clash（mihomo）不支持 `USER-AGENT` 规则，sing-box 规则集不支持 `IP-ASN` / `USER-AGENT`，生成时已自动跳过，不影响使用。
 
 ## 🗂 收录范围
 
@@ -55,98 +167,11 @@
 | **AI 编程 / IDE / Agent** | GitHub Copilot、Cursor、Windsurf、Kiro、Google Antigravity / Jules / Stitch、Gemini CLI、Base44、Zed、Continue、Tabnine、Supermaven、Sourcegraph、Augment、Replit、v0、Lovable、Bolt、Devin / Cognition、Cline、Roo Code、Qodo、Warp、Factory、CodeRabbit、Greptile、Sourcery、Sweep、Cosine、Pieces、Tabby、Refact、Mintlify、JetBrains AI、Dify、CrewAI、AnythingLLM、Chutes |
 | **生成式媒体 / 语音 / 视频** | Midjourney、Sora、Runway、Leonardo、Ideogram、Stability、HeyGen、Synthesia、D-ID、Black Forest Labs（FLUX）、Recraft、Magnific、Photoroom、Topaz、Captions、Hedra、Higgsfield、Viggle、Genmo、Pika、Luma、Suno、ComfyUI、OpenArt、Tripo、TapNow |
 | **语音 / TTS / STT** | ElevenLabs、Deepgram、AssemblyAI、Hume、Cartesia、Resemble、WellSaid、Speechify、LMNT、Murf、Play.ht |
+| **个人 Agent / 自动化** | Meta Muse、OpenClaw / ClawHub、MyClaw、Hermes Agent（Nous Research）、Manus（含 Cue）、Genspark、Lindy、Vellum、Simular、Poke、Slashy、Eigent、MindStudio、Composio |
 | **Agent / 抓取 / 数据 API** | Firecrawl、Tavily、Exa、Apify、Bright Data、Browserbase、Browserless、ScrapingBee、ZenRows、Diffbot、Serper、SerpApi、Lindy、Relay、Bardeen |
 | **认证 / 支付（AI 相关）** | Stripe（含 Link）、PayPal（含 Braintree / Venmo）、Paddle、Chargebee、FastSpring、Lemon Squeezy、Checkout.com、SheerID、ID.me |
 
 > 完整清单见 [`rule/Surge/OverseasAI/OverseasAI.list`](./rule/Surge/OverseasAI/OverseasAI.list)。
-
-## 🚀 快速开始
-
-所有规则集都托管在 `main` 分支，原始地址前缀为：
-
-```
-https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/
-```
-
-### Surge
-
-```ini
-[Rule]
-RULE-SET,OverseasAI,PROXY
-
-[Rule Set]
-OverseasAI = https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI.list
-```
-
-### Clash / Mihomo
-
-```yaml
-rule-providers:
-  OverseasAI:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    url: https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
-    path: ./rule-providers/OverseasAI.list
-
-rules:
-  - RULE-SET,OverseasAI,🚀 代理
-```
-
-### sing-box
-
-```json
-{
-  "route": {
-    "rule_set": [
-      {
-        "type": "remote",
-        "tag": "overseas-ai",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Singbox/OverseasAI/OverseasAI.srs",
-        "download_detour": "proxy"
-      }
-    ],
-    "rules": [
-      { "rule_set": "overseas-ai", "action": "route", "outbound": "proxy" }
-    ]
-  }
-}
-```
-
-## 🔗 订阅地址一览
-
-| 客户端 | 订阅地址 |
-| --- | --- |
-| **Surge** | `…/main/rule/Surge/OverseasAI/OverseasAI.list` |
-| **Surge**（IP 规则去 `no-resolve`） | `…/main/rule/Surge/OverseasAI/OverseasAI_Resolve.list` |
-| **Clash / Mihomo** | `…/main/rule/Clash/OverseasAI/OverseasAI.list` |
-| **Loon** | `…/main/rule/Loon/OverseasAI/OverseasAI.list` |
-| **Shadowrocket** | `…/main/rule/Shadowrocket/OverseasAI/OverseasAI.list` |
-| **Quantumult X** | `…/main/rule/QuantumultX/OverseasAI/OverseasAI.list` |
-| **Quantumult** | `…/main/rule/Quantumult/OverseasAI/OverseasAI.list` |
-| **sing-box**（源格式 `.json`） | `…/main/rule/Singbox/OverseasAI/OverseasAI.json` |
-| **sing-box**（编译 `.srs`） | `…/main/rule/Singbox/OverseasAI/OverseasAI.srs` |
-| **Egern**（`.yaml`） | `…/main/rule/Egern/OverseasAI/OverseasAI.yaml` |
-
-> `…` 代表前缀 `https://raw.githubusercontent.com/viewer12/OverseasAI.list`。国内访问 GitHub 较慢时，可自行替换为 jsDelivr 等加速镜像。
-
-## 📊 规则统计
-
-| 类型 | 数量 |
-| --- | ---: |
-| `DOMAIN` | 50 |
-| `DOMAIN-SUFFIX` | 553 |
-| `DOMAIN-KEYWORD` | 11 |
-| `IP-CIDR` | 2 |
-| `IP-ASN` | 2 |
-| `USER-AGENT` | 1 |
-| **合计** | **619** |
-
-> 数量随每日同步变化，以规则文件头部的 `# TOTAL` 为准。
->
-> Clash（mihomo）不支持 `USER-AGENT` 规则，生成 Clash 规则集时会自动跳过；sing-box 规则集同样跳过 `IP-ASN` 与 `USER-AGENT`。
 
 ## 📁 文件结构
 
@@ -233,7 +258,7 @@ python scripts/check_domains.py
 <details>
 <summary><b>国内拉取规则很慢怎么办？</b></summary>
 
-把 `raw.githubusercontent.com/viewer12/OverseasAI.list/main/` 换成 jsDelivr 等 CDN 镜像即可，规则内容一致。
+直接使用[订阅地址一览](#-订阅地址一览)中的 jsDelivr 镜像链接即可，规则内容一致（镜像最长约 12 小时缓存）。
 </details>
 
 ## 🙏 致谢与许可
@@ -271,23 +296,34 @@ Its single goal: **cleanly route your overseas-AI traffic** (model vendors, AI a
 
 ### Quick start
 
-All rule-sets live on `main`; raw prefix:
-
-```
-https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/
-```
+1. Create an `AI` policy group with nodes in a **supported region** (US / JP / SG; avoid HK — OpenAI, Anthropic and Gemini don't serve it).
+2. Paste the snippet for your client (replace `AI` with your group name).
+3. Place the rule **before** `GEOIP,CN`, `FINAL` / `MATCH` and any broad Google / Microsoft rules.
 
 **Surge**
 
 ```ini
 [Rule]
-RULE-SET,OverseasAI,PROXY
-
-[Rule Set]
-OverseasAI = https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI.list
+RULE-SET,https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI.list,AI
 ```
 
-**sing-box**
+**Clash / Mihomo**
+
+```yaml
+rule-providers:
+  OverseasAI:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+    path: ./ruleset/OverseasAI.list
+
+rules:
+  - RULE-SET,OverseasAI,AI
+```
+
+**sing-box (1.11+)**
 
 ```json
 {
@@ -298,32 +334,34 @@ OverseasAI = https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rul
         "tag": "overseas-ai",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Singbox/OverseasAI/OverseasAI.srs",
-        "download_detour": "proxy"
+        "download_detour": "AI"
       }
     ],
     "rules": [
-      { "rule_set": "overseas-ai", "action": "route", "outbound": "proxy" }
+      { "rule_set": "overseas-ai", "action": "route", "outbound": "AI" }
     ]
   }
 }
 ```
 
+Shadowrocket, Loon, Quantumult X and Egern snippets are in the [Chinese quick start](#-快速开始). Quantumult X needs `force-policy=AI`, because the list has `OverseasAI` baked in as its policy name.
+
 ### Subscription URLs
 
-| Client | URL |
-| --- | --- |
-| Surge | `…/main/rule/Surge/OverseasAI/OverseasAI.list` |
-| Surge (IP rules without `no-resolve`) | `…/main/rule/Surge/OverseasAI/OverseasAI_Resolve.list` |
-| Clash / Mihomo | `…/main/rule/Clash/OverseasAI/OverseasAI.list` |
-| Loon | `…/main/rule/Loon/OverseasAI/OverseasAI.list` |
-| Shadowrocket | `…/main/rule/Shadowrocket/OverseasAI/OverseasAI.list` |
-| Quantumult X | `…/main/rule/QuantumultX/OverseasAI/OverseasAI.list` |
-| Quantumult | `…/main/rule/Quantumult/OverseasAI/OverseasAI.list` |
-| sing-box (`.json`) | `…/main/rule/Singbox/OverseasAI/OverseasAI.json` |
-| sing-box (`.srs`) | `…/main/rule/Singbox/OverseasAI/OverseasAI.srs` |
-| Egern (`.yaml`) | `…/main/rule/Egern/OverseasAI/OverseasAI.yaml` |
+| Client | GitHub raw | jsDelivr mirror |
+| --- | --- | --- |
+| Surge | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI.list) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Surge/OverseasAI/OverseasAI.list) |
+| Surge (IP rules without `no-resolve`) | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI_Resolve.list) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Surge/OverseasAI/OverseasAI_Resolve.list) |
+| Clash / Mihomo | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Clash/OverseasAI/OverseasAI.list) |
+| Shadowrocket | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Shadowrocket/OverseasAI/OverseasAI.list) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Shadowrocket/OverseasAI/OverseasAI.list) |
+| Loon | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Loon/OverseasAI/OverseasAI.list) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Loon/OverseasAI/OverseasAI.list) |
+| Quantumult X | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/QuantumultX/OverseasAI/OverseasAI.list) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/QuantumultX/OverseasAI/OverseasAI.list) |
+| Quantumult | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Quantumult/OverseasAI/OverseasAI.list) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Quantumult/OverseasAI/OverseasAI.list) |
+| sing-box (`.srs`) | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Singbox/OverseasAI/OverseasAI.srs) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Singbox/OverseasAI/OverseasAI.srs) |
+| sing-box (`.json`) | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Singbox/OverseasAI/OverseasAI.json) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Singbox/OverseasAI/OverseasAI.json) |
+| Egern | [link](https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Egern/OverseasAI/OverseasAI.yaml) | [link](https://cdn.jsdelivr.net/gh/viewer12/OverseasAI.list@main/rule/Egern/OverseasAI/OverseasAI.yaml) |
 
-> `…` = `https://raw.githubusercontent.com/viewer12/OverseasAI.list`.
+Rules update daily; a 1-day refresh interval is enough. Payment domains (Stripe, PayPal, Paddle…) are included so checkout uses the same exit IP as the AI service.
 
 ### How it works
 

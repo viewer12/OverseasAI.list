@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-09 03:00:42
+# UPDATED: 2026-10-09 11:04:51
 # domain_set: 76
-# domain_suffix_set: 374
+# domain_suffix_set: 384
 # domain_keyword_set: 11
 # ip_cidr_set: 2
 # asn_set: 2
-# TOTAL: 465
+# TOTAL: 475
 no_resolve: true
 domain_set:
 - ai-gateway.vercel.sh
@@ -179,6 +179,7 @@ domain_suffix_set:
 - comfy.org
 - comfyci.org
 - comfyregistry.org
+- composio.dev
 - context7.com
 - continue.dev
 - copilot-stg.com
@@ -191,6 +192,7 @@ domain_suffix_set:
 - crewai.com
 - crixet.com
 - crusoe.ai
+- cue.im
 - cursor-cdn.com
 - cursor.com
 - cursor.sh
@@ -216,6 +218,7 @@ domain_suffix_set:
 - duck.ai
 - dust.tt
 - edgeservices.bing.com
+- eigent.ai
 - elevenlabs.com
 - elevenlabs.io
 - events.statsigapi.net
@@ -273,6 +276,7 @@ domain_suffix_set:
 - identrust.com
 - ideogram.ai
 - inflection.ai
+- interaction.co
 - intercom.io
 - intercomcdn.com
 - invideo.io
@@ -315,6 +319,7 @@ domain_suffix_set:
 - metaaivm.com
 - midjourney.com
 - milvus.io
+- mindstudio.ai
 - mintlify.com
 - mistral.ai
 - ml.cloud.ibm.com
@@ -323,6 +328,7 @@ domain_suffix_set:
 - mozilla.ai
 - murf.ai
 - muse.ai
+- myclaw.ai
 - nebius.com
 - nomic.ai
 - notebook.google
@@ -375,6 +381,7 @@ domain_suffix_set:
 - plusai.com
 - poe.com
 - poecdn.net
+- poke.com
 - portkey.ai
 - pplx.ai
 - proactivebackend-pa.googleapis.com
@@ -406,6 +413,8 @@ domain_suffix_set:
 - sheerid.com
 - sider.ai
 - sierra.ai
+- simular.ai
+- slashy.com
 - smallcloud.ai
 - snowflakecomputing.com
 - sora.com
@@ -440,6 +449,7 @@ domain_suffix_set:
 - v0.app
 - v0.dev
 - vast.ai
+- vellum.ai
 - venmo.com
 - viggle.ai
 - voice.ai
