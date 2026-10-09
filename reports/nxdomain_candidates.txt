@@ -1,1 +1,2 @@
+comfyci.org
 gateway.bingviz.microsoft.net
