@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-09 03:06:41
-# HOST: 76
-# HOST-SUFFIX: 384
+# UPDATED: 2026-10-09 11:24:14
+# HOST: 84
+# HOST-SUFFIX: 396
 # HOST-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 475
+# TOTAL: 495
 HOST,ai-gateway.vercel.sh,OverseasAI
 HOST,ai.google.dev,OverseasAI
 HOST,aicode.googleapis.com,OverseasAI
@@ -30,6 +30,7 @@ HOST,api.nvidia.com,OverseasAI
 HOST,api.statsig.com,OverseasAI
 HOST,assets.msn.com,OverseasAI
 HOST,auth.grazie.ai,OverseasAI
+HOST,auth.meta.com,OverseasAI
 HOST,aws-language-servers.us-east-1.amazonaws.com,OverseasAI
 HOST,aws-toolkit-language-servers.amazonaws.com,OverseasAI
 HOST,browser-intake-datadoghq.com,OverseasAI
@@ -42,6 +43,7 @@ HOST,cloudaicompanion.googleapis.com,OverseasAI
 HOST,cloudcode-pa.googleapis.com,OverseasAI
 HOST,coderabbit.gallery.vsassets.io,OverseasAI
 HOST,codewhisperer.us-east-1.amazonaws.com,OverseasAI
+HOST,content-firebaseappcheck.googleapis.com,OverseasAI
 HOST,copilot-proxy.githubusercontent.com,OverseasAI
 HOST,copilot-telemetry-service.githubusercontent.com,OverseasAI
 HOST,copilot-telemetry.githubusercontent.com,OverseasAI
@@ -50,6 +52,7 @@ HOST,copilot.microsoft.com,OverseasAI
 HOST,copilotprodattachments.blob.core.windows.net,OverseasAI
 HOST,daily-cloudcode-pa.googleapis.com,OverseasAI
 HOST,desktop-release.codewhisperer.us-east-1.amazonaws.com,OverseasAI
+HOST,firebaseappcheck.googleapis.com,OverseasAI
 HOST,gateway.ai.cloudflare.com,OverseasAI
 HOST,gateway.bingviz.microsoft.net,OverseasAI
 HOST,gateway.bingviz.microsoftapp.net,OverseasAI
@@ -60,6 +63,7 @@ HOST,geminiweb-pa.clients6.google.com,OverseasAI
 HOST,generativelanguage.googleapis.com,OverseasAI
 HOST,grazie.aws.intellij.net,OverseasAI
 HOST,grok.x.com,OverseasAI
+HOST,identitytoolkit.googleapis.com,OverseasAI
 HOST,idetoolkits-hostedfiles.amazonaws.com,OverseasAI
 HOST,idetoolkits.amazonwebservices.com,OverseasAI
 HOST,in.appcenter.ms,OverseasAI
@@ -73,12 +77,14 @@ HOST,odc.officeapps.live.com,OverseasAI
 HOST,openai-api.arkoselabs.com,OverseasAI
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OverseasAI
 HOST,openaicomproductionae4b.blob.core.windows.net,OverseasAI
+HOST,pay.google.com,OverseasAI
 HOST,ppl-ai-file-upload.s3.amazonaws.com,OverseasAI
 HOST,pplx-res.cloudinary.com,OverseasAI
 HOST,production-openaicom-storage.azureedge.net,OverseasAI
 HOST,q.us-east-1.amazonaws.com,OverseasAI
 HOST,r.bing.com,OverseasAI
 HOST,robinfrontend-pa.googleapis.com,OverseasAI
+HOST,securetoken.googleapis.com,OverseasAI
 HOST,self.events.data.microsoft.com,OverseasAI
 HOST,servd-anthropic-website.b-cdn.net,OverseasAI
 HOST,services.bingapis.com,OverseasAI
@@ -86,6 +92,8 @@ HOST,specs.q.us-east-1.amazonaws.com,OverseasAI
 HOST,static.cloudflareinsights.com,OverseasAI
 HOST,sydney.bing.com,OverseasAI
 HOST,telemetry.aws-language-servers.us-east-1.amazonaws.com,OverseasAI
+HOST,us-central1-xi-labs.cloudfunctions.net,OverseasAI
+HOST,waa-pa.clients6.google.com,OverseasAI
 HOST,webchannel-alkalimakersuite-pa.clients6.google.com,OverseasAI
 HOST,www.bing.com,OverseasAI
 HOST-SUFFIX,abacus.ai,OverseasAI
@@ -119,6 +127,7 @@ HOST-SUFFIX,assemblyai.com,OverseasAI
 HOST-SUFFIX,augment.dev,OverseasAI
 HOST-SUFFIX,augmentcode.com,OverseasAI
 HOST-SUFFIX,auth0.com,OverseasAI
+HOST-SUFFIX,awswaf.com,OverseasAI
 HOST-SUFFIX,azuredatabricks.net,OverseasAI
 HOST-SUFFIX,bard.google.com,OverseasAI
 HOST-SUFFIX,bardeen.ai,OverseasAI
@@ -143,6 +152,7 @@ HOST-SUFFIX,cartesia.ai,OverseasAI
 HOST-SUFFIX,cerebras.ai,OverseasAI
 HOST-SUFFIX,challenges.cloudflare.com,OverseasAI
 HOST-SUFFIX,character.ai,OverseasAI
+HOST-SUFFIX,characterai.io,OverseasAI
 HOST-SUFFIX,chargebee.com,OverseasAI
 HOST-SUFFIX,chat.com,OverseasAI
 HOST-SUFFIX,chatgpt.com,OverseasAI
@@ -162,6 +172,7 @@ HOST-SUFFIX,claudemcpclient.com,OverseasAI
 HOST-SUFFIX,claudemcpcontent.com,OverseasAI
 HOST-SUFFIX,claudeusercontent.com,OverseasAI
 HOST-SUFFIX,clawhub.ai,OverseasAI
+HOST-SUFFIX,clerk.com,OverseasAI
 HOST-SUFFIX,client-api.arkoselabs.com,OverseasAI
 HOST-SUFFIX,cline.bot,OverseasAI
 HOST-SUFFIX,clipdrop.co,OverseasAI
@@ -256,10 +267,12 @@ HOST-SUFFIX,groktpcontent.com,OverseasAI
 HOST-SUFFIX,grokusercontent.com,OverseasAI
 HOST-SUFFIX,groq.com,OverseasAI
 HOST-SUFFIX,h2o.ai,OverseasAI
+HOST-SUFFIX,hcaptcha.com,OverseasAI
 HOST-SUFFIX,hebbia.ai,OverseasAI
 HOST-SUFFIX,hebbia.com,OverseasAI
 HOST-SUFFIX,hedra.com,OverseasAI
 HOST-SUFFIX,helicone.ai,OverseasAI
+HOST-SUFFIX,heygen.ai,OverseasAI
 HOST-SUFFIX,heygen.com,OverseasAI
 HOST-SUFFIX,hf.co,OverseasAI
 HOST-SUFFIX,hf.space,OverseasAI
@@ -381,12 +394,15 @@ HOST-SUFFIX,poecdn.net,OverseasAI
 HOST-SUFFIX,poke.com,OverseasAI
 HOST-SUFFIX,portkey.ai,OverseasAI
 HOST-SUFFIX,pplx.ai,OverseasAI
+HOST-SUFFIX,prelude.dev,OverseasAI
 HOST-SUFFIX,proactivebackend-pa.googleapis.com,OverseasAI
+HOST-SUFFIX,px-cloud.net,OverseasAI
 HOST-SUFFIX,qdrant.tech,OverseasAI
 HOST-SUFFIX,qodo.ai,OverseasAI
 HOST-SUFFIX,qpoe.com,OverseasAI
 HOST-SUFFIX,quillbot.com,OverseasAI
 HOST-SUFFIX,read.ai,OverseasAI
+HOST-SUFFIX,recaptcha.net,OverseasAI
 HOST-SUFFIX,recraft.ai,OverseasAI
 HOST-SUFFIX,refact.ai,OverseasAI
 HOST-SUFFIX,reka.ai,OverseasAI
@@ -399,6 +415,7 @@ HOST-SUFFIX,resemble.ai,OverseasAI
 HOST-SUFFIX,respeecher.com,OverseasAI
 HOST-SUFFIX,roocode.com,OverseasAI
 HOST-SUFFIX,runpod.io,OverseasAI
+HOST-SUFFIX,runway.com,OverseasAI
 HOST-SUFFIX,runwayml.com,OverseasAI
 HOST-SUFFIX,rytr.me,OverseasAI
 HOST-SUFFIX,sambanova.ai,OverseasAI
@@ -422,6 +439,7 @@ HOST-SUFFIX,spicywriter.com,OverseasAI
 HOST-SUFFIX,stability.ai,OverseasAI
 HOST-SUFFIX,stitch.withgoogle.com,OverseasAI
 HOST-SUFFIX,stripe.com,OverseasAI
+HOST-SUFFIX,stytch.com,OverseasAI
 HOST-SUFFIX,sudowrite.com,OverseasAI
 HOST-SUFFIX,suno.ai,OverseasAI
 HOST-SUFFIX,suno.com,OverseasAI
@@ -462,7 +480,9 @@ HOST-SUFFIX,windsurf-telemetry.codeium.com,OverseasAI
 HOST-SUFFIX,windsurf.ai,OverseasAI
 HOST-SUFFIX,windsurf.build,OverseasAI
 HOST-SUFFIX,windsurf.com,OverseasAI
+HOST-SUFFIX,withpersona.com,OverseasAI
 HOST-SUFFIX,wordtune.com,OverseasAI
+HOST-SUFFIX,workos.com,OverseasAI
 HOST-SUFFIX,writer.com,OverseasAI
 HOST-SUFFIX,writesonic.com,OverseasAI
 HOST-SUFFIX,x.ai,OverseasAI

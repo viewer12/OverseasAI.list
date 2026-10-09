@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-09 03:06:41
-# domain_set: 76
-# domain_suffix_set: 384
+# UPDATED: 2026-10-09 11:24:14
+# domain_set: 84
+# domain_suffix_set: 396
 # domain_keyword_set: 11
 # ip_cidr_set: 2
 # asn_set: 2
-# TOTAL: 475
+# TOTAL: 495
 no_resolve: true
 domain_set:
 - ai-gateway.vercel.sh
@@ -32,6 +32,7 @@ domain_set:
 - api.statsig.com
 - assets.msn.com
 - auth.grazie.ai
+- auth.meta.com
 - aws-language-servers.us-east-1.amazonaws.com
 - aws-toolkit-language-servers.amazonaws.com
 - browser-intake-datadoghq.com
@@ -44,6 +45,7 @@ domain_set:
 - cloudcode-pa.googleapis.com
 - coderabbit.gallery.vsassets.io
 - codewhisperer.us-east-1.amazonaws.com
+- content-firebaseappcheck.googleapis.com
 - copilot-proxy.githubusercontent.com
 - copilot-telemetry-service.githubusercontent.com
 - copilot-telemetry.githubusercontent.com
@@ -52,6 +54,7 @@ domain_set:
 - copilotprodattachments.blob.core.windows.net
 - daily-cloudcode-pa.googleapis.com
 - desktop-release.codewhisperer.us-east-1.amazonaws.com
+- firebaseappcheck.googleapis.com
 - gateway.ai.cloudflare.com
 - gateway.bingviz.microsoft.net
 - gateway.bingviz.microsoftapp.net
@@ -62,6 +65,7 @@ domain_set:
 - generativelanguage.googleapis.com
 - grazie.aws.intellij.net
 - grok.x.com
+- identitytoolkit.googleapis.com
 - idetoolkits-hostedfiles.amazonaws.com
 - idetoolkits.amazonwebservices.com
 - in.appcenter.ms
@@ -75,12 +79,14 @@ domain_set:
 - openai-api.arkoselabs.com
 - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 - openaicomproductionae4b.blob.core.windows.net
+- pay.google.com
 - ppl-ai-file-upload.s3.amazonaws.com
 - pplx-res.cloudinary.com
 - production-openaicom-storage.azureedge.net
 - q.us-east-1.amazonaws.com
 - r.bing.com
 - robinfrontend-pa.googleapis.com
+- securetoken.googleapis.com
 - self.events.data.microsoft.com
 - servd-anthropic-website.b-cdn.net
 - services.bingapis.com
@@ -88,6 +94,8 @@ domain_set:
 - static.cloudflareinsights.com
 - sydney.bing.com
 - telemetry.aws-language-servers.us-east-1.amazonaws.com
+- us-central1-xi-labs.cloudfunctions.net
+- waa-pa.clients6.google.com
 - webchannel-alkalimakersuite-pa.clients6.google.com
 - www.bing.com
 domain_suffix_set:
@@ -122,6 +130,7 @@ domain_suffix_set:
 - augment.dev
 - augmentcode.com
 - auth0.com
+- awswaf.com
 - azuredatabricks.net
 - bard.google.com
 - bardeen.ai
@@ -146,6 +155,7 @@ domain_suffix_set:
 - cerebras.ai
 - challenges.cloudflare.com
 - character.ai
+- characterai.io
 - chargebee.com
 - chat.com
 - chatgpt.com
@@ -165,6 +175,7 @@ domain_suffix_set:
 - claudemcpcontent.com
 - claudeusercontent.com
 - clawhub.ai
+- clerk.com
 - client-api.arkoselabs.com
 - cline.bot
 - clipdrop.co
@@ -259,10 +270,12 @@ domain_suffix_set:
 - grokusercontent.com
 - groq.com
 - h2o.ai
+- hcaptcha.com
 - hebbia.ai
 - hebbia.com
 - hedra.com
 - helicone.ai
+- heygen.ai
 - heygen.com
 - hf.co
 - hf.space
@@ -384,12 +397,15 @@ domain_suffix_set:
 - poke.com
 - portkey.ai
 - pplx.ai
+- prelude.dev
 - proactivebackend-pa.googleapis.com
+- px-cloud.net
 - qdrant.tech
 - qodo.ai
 - qpoe.com
 - quillbot.com
 - read.ai
+- recaptcha.net
 - recraft.ai
 - refact.ai
 - reka.ai
@@ -402,6 +418,7 @@ domain_suffix_set:
 - respeecher.com
 - roocode.com
 - runpod.io
+- runway.com
 - runwayml.com
 - rytr.me
 - sambanova.ai
@@ -425,6 +442,7 @@ domain_suffix_set:
 - stability.ai
 - stitch.withgoogle.com
 - stripe.com
+- stytch.com
 - sudowrite.com
 - suno.ai
 - suno.com
@@ -465,7 +483,9 @@ domain_suffix_set:
 - windsurf.ai
 - windsurf.build
 - windsurf.com
+- withpersona.com
 - wordtune.com
+- workos.com
 - writer.com
 - writesonic.com
 - x.ai
