@@ -1,9 +1,9 @@
-# NXDOMAIN Report (2026-10-09 02:59:31Z)
+# NXDOMAIN Report (2026-10-09 03:00:45Z)
 
 Checked domains: 448
-OK: 434
-NXDOMAIN: 0
-UNKNOWN: 14
+OK: 445
+NXDOMAIN: 3
+UNKNOWN: 0
 
 Threshold: 3 consecutive NXDOMAIN
 
@@ -11,17 +11,4 @@ Threshold: 3 consecutive NXDOMAIN
 - gateway.bingviz.microsoft.net
 
 ## Unknowns
-- codeium.com
-- comfyci.org
-- comfyregistry.org
-- gateway.bingviz.microsoft.net
-- langfuse.com
-- nebius.com
-- ollama.ai
-- r.bing.com
-- refact.ai
-- replicate.com
-- speechify.com
-- sudowrite.com
-- voyageai.com
-- www.bing.com
+- (none)
