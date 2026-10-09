@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-08 08:07:43
+# UPDATED: 2026-10-09 10:35:08
 # DOMAIN: 50
-# DOMAIN-SUFFIX: 553
+# DOMAIN-SUFFIX: 554
 # DOMAIN-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 618
+# TOTAL: 619
 DOMAIN,ai-gateway.vercel.sh
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -144,6 +144,7 @@ DOMAIN-SUFFIX,chargebee.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,checkout.com
 DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,claude.ai
