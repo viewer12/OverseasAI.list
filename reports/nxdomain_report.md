@@ -1,9 +1,9 @@
-# NXDOMAIN Report (2026-10-09 03:25:05Z)
+# NXDOMAIN Report (2026-10-09 03:26:17Z)
 
 Checked domains: 478
-OK: 469
-NXDOMAIN: 0
-UNKNOWN: 9
+OK: 475
+NXDOMAIN: 3
+UNKNOWN: 0
 
 Threshold: 3 consecutive NXDOMAIN
 
@@ -11,12 +11,4 @@ Threshold: 3 consecutive NXDOMAIN
 - gateway.bingviz.microsoft.net
 
 ## Unknowns
-- comfyci.org
-- comfyregistry.org
-- gateway.bingviz.microsoft.net
-- grazie.aws.intellij.net
-- helicone.ai
-- higgsfield.ai
-- jules.google
-- tabbyml.com
-- trychroma.com
+- (none)
