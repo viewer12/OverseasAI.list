@@ -27,7 +27,6 @@ CORE_SOURCES = [
     "Copilot",
     "Civitai",
     "Stripe",
-    "PayPal",
 ]
 
 
@@ -52,7 +51,7 @@ def build_header(name: str, updated: str, counts: Counter) -> list[str]:
         "# AUTHOR: aggregated by request",
         "# REPO: git@github.com:viewer12/OverseasAI.list.git",
         "# SOURCE: https://github.com/blackmatrix7/ios_rule_script (rule/Surge)",
-        "# INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe, PayPal",
+        "# INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe",
         "# INCLUDED-UPSTREAM-EXTRA: see README",
         "# INCLUDED-CUSTOM: see README",
         f"# UPDATED: {updated}",

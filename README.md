@@ -47,16 +47,16 @@
 
 | 类别 | 代表服务 |
 | --- | --- |
-| **模型厂商 / 研究实验室** | OpenAI、Anthropic（Claude）、Google Gemini / DeepMind、xAI（Grok）、Cohere、Mistral、Groq、Cerebras、AI21、NVIDIA、Meta AI、Character.AI、Inflection、Reka、Writer、SambaNova、Aleph Alpha、Ai2、Liquid AI、Nous Research、Thinking Machines |
+| **模型厂商 / 研究实验室** | OpenAI、Anthropic（Claude）、Google Gemini / DeepMind、xAI（Grok）、Cohere、Mistral、Groq、Cerebras、AI21、NVIDIA、Meta AI、Character.AI、Inflection、Reka、Writer、SambaNova、Aleph Alpha、Ai2、Liquid AI、Nous Research、Thinking Machines、H2O.ai、Mozilla.ai |
 | **推理 / GPU 云** | OpenRouter、Together、Fireworks、Replicate、Fal、DeepInfra、Runpod、Lambda、Modal、Baseten、Anyscale、CoreWeave、Nebius、Crusoe、Vast.ai、Hyperbolic、Novita、Vercel AI Gateway、Azure AI Foundry、Ollama、LM Studio |
 | **向量库 / Embedding** | Pinecone、Weaviate、Qdrant、Milvus、Chroma、turbopuffer、Voyage AI、Nomic |
 | **LLM 运维 / 网关 / 评测** | LangChain / LangSmith、LlamaIndex、Langfuse、Helicone、Braintrust、Arize、Portkey、LiteLLM、Weights & Biases |
-| **AI 应用 / 搜索 / 浏览器** | Perplexity、Poe、You.com、Phind、Pi、Dia、Gamma、Read AI、Granola、Sierra、Glean、Hebbia、Dust、Genspark、Abacus.AI、NotebookLM、Google Labs |
-| **AI 编程 / IDE / Agent** | GitHub Copilot、Cursor、Windsurf、Kiro、Google Antigravity / Jules / Stitch、Gemini CLI、Base44、Zed、Continue、Tabnine、Supermaven、Sourcegraph、Augment、Replit、v0、Lovable、Bolt、Devin / Cognition、Cline、Roo Code、Qodo、Warp、Factory、CodeRabbit、Greptile、Sourcery、Sweep、Cosine、Pieces、Tabby、Refact、Mintlify |
-| **生成式媒体 / 语音 / 视频** | Midjourney、Sora、Runway、Leonardo、Ideogram、Stability、HeyGen、Synthesia、D-ID、Black Forest Labs（FLUX）、Recraft、Magnific、Photoroom、Topaz、Captions、Hedra、Higgsfield、Viggle、Genmo、Pika、Luma、Suno |
+| **AI 应用 / 搜索 / 浏览器** | Perplexity、Poe、You.com、Phind、Pi、Dia、Gamma、Read AI、Granola、Sierra、Glean、Hebbia、Dust、Genspark、Abacus.AI、NotebookLM、Google Labs（Flow / Opal / AI Studio）、Copilot.com、Duck.ai、LMArena、DeepWiki、Sider、YouMind、NoteGPT、Coze、Cici / Dola、NovelAI |
+| **AI 编程 / IDE / Agent** | GitHub Copilot、Cursor、Windsurf、Kiro、Google Antigravity / Jules / Stitch、Gemini CLI、Base44、Zed、Continue、Tabnine、Supermaven、Sourcegraph、Augment、Replit、v0、Lovable、Bolt、Devin / Cognition、Cline、Roo Code、Qodo、Warp、Factory、CodeRabbit、Greptile、Sourcery、Sweep、Cosine、Pieces、Tabby、Refact、Mintlify、JetBrains AI、Dify、CrewAI、AnythingLLM、Chutes |
+| **生成式媒体 / 语音 / 视频** | Midjourney、Sora、Runway、Leonardo、Ideogram、Stability、HeyGen、Synthesia、D-ID、Black Forest Labs（FLUX）、Recraft、Magnific、Photoroom、Topaz、Captions、Hedra、Higgsfield、Viggle、Genmo、Pika、Luma、Suno、ComfyUI、OpenArt、Tripo、TapNow |
 | **语音 / TTS / STT** | ElevenLabs、Deepgram、AssemblyAI、Hume、Cartesia、Resemble、WellSaid、Speechify、LMNT、Murf、Play.ht |
 | **Agent / 抓取 / 数据 API** | Firecrawl、Tavily、Exa、Apify、Bright Data、Browserbase、Browserless、ScrapingBee、ZenRows、Diffbot、Serper、SerpApi、Lindy、Relay、Bardeen |
-| **认证 / 支付（AI 相关）** | Stripe（含 Link）、PayPal、Paddle、Chargebee、FastSpring、Lemon Squeezy、Checkout.com、SheerID、ID.me |
+| **认证 / 支付（AI 相关）** | Stripe（含 Link）、PayPal（含 Braintree / Venmo）、Paddle、Chargebee、FastSpring、Lemon Squeezy、Checkout.com、SheerID、ID.me |
 
 > 完整清单见 [`rule/Surge/OverseasAI/OverseasAI.list`](./rule/Surge/OverseasAI/OverseasAI.list)。
 
@@ -176,7 +176,7 @@ OverseasAI.list
 
 规则由三部分合并而成：
 
-1. **核心规则（CORE）** —— 取自上游 `blackmatrix7/ios_rule_script` 的 `OpenAI / Claude / Anthropic / Gemini / BardAI / Copilot / Civitai / Stripe / PayPal` 列表；
+1. **核心规则（CORE）** —— 取自上游 `blackmatrix7/ios_rule_script` 的 `OpenAI / Claude / Anthropic / Gemini / BardAI / Copilot / Civitai / Stripe` 列表；
 2. **上游补充（UPSTREAM-EXTRA）** —— 在 `data/upstream_extra_rules.txt` 中声明、且必须在上游存在的额外规则（如 Perplexity、Cursor、OpenRouter 等）；
 3. **自定义（CUSTOM）** —— 本仓库人工维护的海外 AI 域名，见 `OverseasAI_Custom.list`。
 
@@ -207,6 +207,7 @@ python scripts/check_domains.py
 - **聚焦海外 AI**：以海外 AI 服务及配套平台为主。
 - **排除大陆直连**：默认不收录大陆通常可直接访问的大陆系 AI 服务（如 DeepSeek、Kimi、智谱、MiniMax 等）。
 - **边界清晰**：尽量使用精确域名 / 后缀，避免 `notion.so`、`brave.com`、`freepik.com` 这类大量承载非 AI 流量的过宽域名。
+- **支付域名从严**：收录 Stripe、PayPal 等支付域名，是为了让订阅付款与 AI 服务走同一出口、避免 IP 不一致触发风控；只收付款流程实际访问的域名，不收防仿冒注册、贷款、汇款等无关业务域名。
 - **归属可核实**：新增前核实域名确实归属该公司，并验证可解析；归属存疑、已停服或被收购整合的服务会被标注或排除。
 
 ## ❓ 常见问题
@@ -326,7 +327,7 @@ OverseasAI = https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rul
 
 ### How it works
 
-Rules are merged from three sources: **CORE** (upstream `blackmatrix7` lists for OpenAI / Claude / Anthropic / Gemini / BardAI / Copilot / Civitai / Stripe / PayPal), **UPSTREAM-EXTRA** (declared in `data/upstream_extra_rules.txt`, must exist upstream), and **CUSTOM** (`OverseasAI_Custom.list`). A daily GitHub Action syncs upstream, runs `sync_rules.py` → `build_clients.py` → `check_domains.py`. NXDOMAIN candidates are reported, never auto-deleted.
+Rules are merged from three sources: **CORE** (upstream `blackmatrix7` lists for OpenAI / Claude / Anthropic / Gemini / BardAI / Copilot / Civitai / Stripe), **UPSTREAM-EXTRA** (declared in `data/upstream_extra_rules.txt`, must exist upstream), and **CUSTOM** (`OverseasAI_Custom.list`). A daily GitHub Action syncs upstream, runs `sync_rules.py` → `build_clients.py` → `check_domains.py`. NXDOMAIN candidates are reported, never auto-deleted.
 
 Local rebuild:
 
