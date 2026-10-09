@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-09 03:00:42
+# UPDATED: 2026-10-09 11:04:51
 # HOST: 76
-# HOST-SUFFIX: 374
+# HOST-SUFFIX: 384
 # HOST-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 465
+# TOTAL: 475
 HOST,ai-gateway.vercel.sh,OverseasAI
 HOST,ai.google.dev,OverseasAI
 HOST,aicode.googleapis.com,OverseasAI
@@ -176,6 +176,7 @@ HOST-SUFFIX,colossyan.com,OverseasAI
 HOST-SUFFIX,comfy.org,OverseasAI
 HOST-SUFFIX,comfyci.org,OverseasAI
 HOST-SUFFIX,comfyregistry.org,OverseasAI
+HOST-SUFFIX,composio.dev,OverseasAI
 HOST-SUFFIX,context7.com,OverseasAI
 HOST-SUFFIX,continue.dev,OverseasAI
 HOST-SUFFIX,copilot-stg.com,OverseasAI
@@ -188,6 +189,7 @@ HOST-SUFFIX,coze.com,OverseasAI
 HOST-SUFFIX,crewai.com,OverseasAI
 HOST-SUFFIX,crixet.com,OverseasAI
 HOST-SUFFIX,crusoe.ai,OverseasAI
+HOST-SUFFIX,cue.im,OverseasAI
 HOST-SUFFIX,cursor-cdn.com,OverseasAI
 HOST-SUFFIX,cursor.com,OverseasAI
 HOST-SUFFIX,cursor.sh,OverseasAI
@@ -213,6 +215,7 @@ HOST-SUFFIX,dreamstudio.ai,OverseasAI
 HOST-SUFFIX,duck.ai,OverseasAI
 HOST-SUFFIX,dust.tt,OverseasAI
 HOST-SUFFIX,edgeservices.bing.com,OverseasAI
+HOST-SUFFIX,eigent.ai,OverseasAI
 HOST-SUFFIX,elevenlabs.com,OverseasAI
 HOST-SUFFIX,elevenlabs.io,OverseasAI
 HOST-SUFFIX,events.statsigapi.net,OverseasAI
@@ -270,6 +273,7 @@ HOST-SUFFIX,id.me,OverseasAI
 HOST-SUFFIX,identrust.com,OverseasAI
 HOST-SUFFIX,ideogram.ai,OverseasAI
 HOST-SUFFIX,inflection.ai,OverseasAI
+HOST-SUFFIX,interaction.co,OverseasAI
 HOST-SUFFIX,intercom.io,OverseasAI
 HOST-SUFFIX,intercomcdn.com,OverseasAI
 HOST-SUFFIX,invideo.io,OverseasAI
@@ -312,6 +316,7 @@ HOST-SUFFIX,meta.ai,OverseasAI
 HOST-SUFFIX,metaaivm.com,OverseasAI
 HOST-SUFFIX,midjourney.com,OverseasAI
 HOST-SUFFIX,milvus.io,OverseasAI
+HOST-SUFFIX,mindstudio.ai,OverseasAI
 HOST-SUFFIX,mintlify.com,OverseasAI
 HOST-SUFFIX,mistral.ai,OverseasAI
 HOST-SUFFIX,ml.cloud.ibm.com,OverseasAI
@@ -320,6 +325,7 @@ HOST-SUFFIX,models.dev,OverseasAI
 HOST-SUFFIX,mozilla.ai,OverseasAI
 HOST-SUFFIX,murf.ai,OverseasAI
 HOST-SUFFIX,muse.ai,OverseasAI
+HOST-SUFFIX,myclaw.ai,OverseasAI
 HOST-SUFFIX,nebius.com,OverseasAI
 HOST-SUFFIX,nomic.ai,OverseasAI
 HOST-SUFFIX,notebook.google,OverseasAI
@@ -372,6 +378,7 @@ HOST-SUFFIX,playgroundai.com,OverseasAI
 HOST-SUFFIX,plusai.com,OverseasAI
 HOST-SUFFIX,poe.com,OverseasAI
 HOST-SUFFIX,poecdn.net,OverseasAI
+HOST-SUFFIX,poke.com,OverseasAI
 HOST-SUFFIX,portkey.ai,OverseasAI
 HOST-SUFFIX,pplx.ai,OverseasAI
 HOST-SUFFIX,proactivebackend-pa.googleapis.com,OverseasAI
@@ -403,6 +410,8 @@ HOST-SUFFIX,serper.dev,OverseasAI
 HOST-SUFFIX,sheerid.com,OverseasAI
 HOST-SUFFIX,sider.ai,OverseasAI
 HOST-SUFFIX,sierra.ai,OverseasAI
+HOST-SUFFIX,simular.ai,OverseasAI
+HOST-SUFFIX,slashy.com,OverseasAI
 HOST-SUFFIX,smallcloud.ai,OverseasAI
 HOST-SUFFIX,snowflakecomputing.com,OverseasAI
 HOST-SUFFIX,sora.com,OverseasAI
@@ -437,6 +446,7 @@ HOST-SUFFIX,udio.com,OverseasAI
 HOST-SUFFIX,v0.app,OverseasAI
 HOST-SUFFIX,v0.dev,OverseasAI
 HOST-SUFFIX,vast.ai,OverseasAI
+HOST-SUFFIX,vellum.ai,OverseasAI
 HOST-SUFFIX,venmo.com,OverseasAI
 HOST-SUFFIX,viggle.ai,OverseasAI
 HOST-SUFFIX,voice.ai,OverseasAI
