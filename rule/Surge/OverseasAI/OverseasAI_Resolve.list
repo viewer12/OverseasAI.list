@@ -1,4 +1,4 @@
-# NAME: OverseasAI_Resolve
+# NAME: OverseasAI
 # AUTHOR: aggregated by request
 # REPO: git@github.com:viewer12/OverseasAI.list.git
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script (rule/Surge)
@@ -7,11 +7,11 @@
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-10-16 06:31:52
 # DOMAIN: 84
-# DOMAIN-SUFFIX: 396
+# DOMAIN-SUFFIX: 397
 # DOMAIN-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 495
+# TOTAL: 496
 DOMAIN,ai-gateway.vercel.sh
 DOMAIN,ai.google.dev
 DOMAIN,aicode.googleapis.com
@@ -460,6 +460,7 @@ DOMAIN-SUFFIX,tripo3d.ai
 DOMAIN-SUFFIX,trychroma.com
 DOMAIN-SUFFIX,turbopuffer.com
 DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,typesafe.ai
 DOMAIN-SUFFIX,udio.com
 DOMAIN-SUFFIX,v0.app
 DOMAIN-SUFFIX,v0.dev
