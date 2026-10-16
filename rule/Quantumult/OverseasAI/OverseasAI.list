@@ -7,11 +7,11 @@
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-10-16 06:31:52
 # HOST: 84
-# HOST-SUFFIX: 396
+# HOST-SUFFIX: 397
 # HOST-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 495
+# TOTAL: 496
 HOST,ai-gateway.vercel.sh,OverseasAI
 HOST,ai.google.dev,OverseasAI
 HOST,aicode.googleapis.com,OverseasAI
@@ -460,6 +460,7 @@ HOST-SUFFIX,tripo3d.ai,OverseasAI
 HOST-SUFFIX,trychroma.com,OverseasAI
 HOST-SUFFIX,turbopuffer.com,OverseasAI
 HOST-SUFFIX,turn.livekit.cloud,OverseasAI
+HOST-SUFFIX,typesafe.ai,OverseasAI
 HOST-SUFFIX,udio.com,OverseasAI
 HOST-SUFFIX,v0.app,OverseasAI
 HOST-SUFFIX,v0.dev,OverseasAI

@@ -7,11 +7,11 @@
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-10-16 06:31:52
 # domain_set: 84
-# domain_suffix_set: 396
+# domain_suffix_set: 397
 # domain_keyword_set: 11
 # ip_cidr_set: 2
 # asn_set: 2
-# TOTAL: 495
+# TOTAL: 496
 no_resolve: true
 domain_set:
 - ai-gateway.vercel.sh
@@ -463,6 +463,7 @@ domain_suffix_set:
 - trychroma.com
 - turbopuffer.com
 - turn.livekit.cloud
+- typesafe.ai
 - udio.com
 - v0.app
 - v0.dev
