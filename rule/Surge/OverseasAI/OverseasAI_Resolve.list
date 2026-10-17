@@ -1,11 +1,11 @@
-# NAME: OverseasAI
+# NAME: OverseasAI_Resolve
 # AUTHOR: aggregated by request
 # REPO: git@github.com:viewer12/OverseasAI.list.git
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script (rule/Surge)
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-16 06:31:52
+# UPDATED: 2026-10-17 06:21:24
 # DOMAIN: 84
 # DOMAIN-SUFFIX: 397
 # DOMAIN-KEYWORD: 11
