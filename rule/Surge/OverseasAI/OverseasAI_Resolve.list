@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-10-18 06:45:46
+# UPDATED: 2026-10-18 17:29:33
 # DOMAIN: 84
-# DOMAIN-SUFFIX: 397
+# DOMAIN-SUFFIX: 399
 # DOMAIN-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 496
+# TOTAL: 498
 DOMAIN,ai-gateway.vercel.sh
 DOMAIN,ai.google.dev
 DOMAIN,aicode.googleapis.com
@@ -164,6 +164,7 @@ DOMAIN-SUFFIX,cici.com
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,ciciaicdn.com
 DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,claicode.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.dev
@@ -187,6 +188,7 @@ DOMAIN-SUFFIX,colossyan.com
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,comfyci.org
 DOMAIN-SUFFIX,comfyregistry.org
+DOMAIN-SUFFIX,commandcode.ai
 DOMAIN-SUFFIX,composio.dev
 DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,continue.dev

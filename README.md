@@ -165,7 +165,7 @@ rules:
 | **向量库 / Embedding** | Pinecone、Weaviate、Qdrant、Milvus、Chroma、turbopuffer、Voyage AI、Nomic |
 | **LLM 运维 / 网关 / 评测** | LangChain / LangSmith、LlamaIndex、Langfuse、Helicone、Braintrust、Arize、Portkey、LiteLLM、Weights & Biases |
 | **AI 应用 / 搜索 / 浏览器** | Perplexity、Poe、You.com、Phind、Pi、Dia、Gamma、Read AI、Granola、Sierra、Glean、Hebbia、Dust、Genspark、Abacus.AI、NotebookLM、Google Labs（Flow / Opal / AI Studio）、Copilot.com、Duck.ai、LMArena、DeepWiki、Sider、YouMind、NoteGPT、Coze、Cici / Dola、NovelAI |
-| **AI 编程 / IDE / Agent** | GitHub Copilot、Cursor、Windsurf、Kiro、Google Antigravity / Jules / Stitch、Gemini CLI、Base44、Zed、Continue、Tabnine、Supermaven、Sourcegraph、Augment、Replit、v0、Lovable、Bolt、Devin / Cognition、Cline、Roo Code、Qodo、Warp、Factory、CodeRabbit、Greptile、Sourcery、Sweep、Cosine、Pieces、Tabby、Refact、Mintlify、JetBrains AI、Dify、CrewAI、AnythingLLM、Chutes |
+| **AI 编程 / IDE / Agent** | GitHub Copilot、Cursor、Windsurf、Command Code、Kiro、Google Antigravity / Jules / Stitch、Gemini CLI、Base44、Zed、Continue、Tabnine、Supermaven、Sourcegraph、Augment、Replit、v0、Lovable、Bolt、Devin / Cognition、Cline、Roo Code、Qodo、Warp、Factory、CodeRabbit、Greptile、Sourcery、Sweep、Cosine、Pieces、Tabby、Refact、Mintlify、JetBrains AI、Dify、CrewAI、AnythingLLM、Chutes |
 | **生成式媒体 / 语音 / 视频** | Midjourney、Sora、Runway、Leonardo、Ideogram、Stability、HeyGen、Synthesia、D-ID、Black Forest Labs（FLUX）、Recraft、Magnific、Photoroom、Topaz、Captions、Hedra、Higgsfield、Viggle、Genmo、Pika、Luma、Suno、ComfyUI、OpenArt、Tripo、TapNow |
 | **语音 / TTS / STT** | ElevenLabs、Deepgram、AssemblyAI、Hume、Cartesia、Resemble、WellSaid、Speechify、LMNT、Murf、Play.ht |
 | **个人 Agent / 自动化** | Meta Muse、OpenClaw / ClawHub、MyClaw、Hermes Agent（Nous Research）、Manus（含 Cue）、Genspark、Lindy、Vellum、Simular、Poke、Slashy、Eigent、MindStudio、Composio |
