@@ -7,11 +7,11 @@
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-10-20 06:49:12
 # HOST: 84
-# HOST-SUFFIX: 397
+# HOST-SUFFIX: 399
 # HOST-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 496
+# TOTAL: 498
 HOST,ai-gateway.vercel.sh,OverseasAI
 HOST,ai.google.dev,OverseasAI
 HOST,aicode.googleapis.com,OverseasAI
@@ -164,6 +164,7 @@ HOST-SUFFIX,cici.com,OverseasAI
 HOST-SUFFIX,ciciai.com,OverseasAI
 HOST-SUFFIX,ciciaicdn.com,OverseasAI
 HOST-SUFFIX,civitai.com,OverseasAI
+HOST-SUFFIX,claicode.com,OverseasAI
 HOST-SUFFIX,claude.ai,OverseasAI
 HOST-SUFFIX,claude.com,OverseasAI
 HOST-SUFFIX,claude.dev,OverseasAI
@@ -187,6 +188,7 @@ HOST-SUFFIX,colossyan.com,OverseasAI
 HOST-SUFFIX,comfy.org,OverseasAI
 HOST-SUFFIX,comfyci.org,OverseasAI
 HOST-SUFFIX,comfyregistry.org,OverseasAI
+HOST-SUFFIX,commandcode.ai,OverseasAI
 HOST-SUFFIX,composio.dev,OverseasAI
 HOST-SUFFIX,context7.com,OverseasAI
 HOST-SUFFIX,continue.dev,OverseasAI

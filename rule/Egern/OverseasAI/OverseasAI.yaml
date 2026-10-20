@@ -7,11 +7,11 @@
 # INCLUDED-CUSTOM: see README
 # UPDATED: 2026-10-20 06:49:12
 # domain_set: 84
-# domain_suffix_set: 397
+# domain_suffix_set: 399
 # domain_keyword_set: 11
 # ip_cidr_set: 2
 # asn_set: 2
-# TOTAL: 496
+# TOTAL: 498
 no_resolve: true
 domain_set:
 - ai-gateway.vercel.sh
@@ -167,6 +167,7 @@ domain_suffix_set:
 - ciciai.com
 - ciciaicdn.com
 - civitai.com
+- claicode.com
 - claude.ai
 - claude.com
 - claude.dev
@@ -190,6 +191,7 @@ domain_suffix_set:
 - comfy.org
 - comfyci.org
 - comfyregistry.org
+- commandcode.ai
 - composio.dev
 - context7.com
 - continue.dev
