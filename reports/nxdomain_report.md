@@ -1,9 +1,9 @@
-# NXDOMAIN Report (2026-10-29 07:44:55Z)
+# NXDOMAIN Report (2026-10-30 07:51:32Z)
 
 Checked domains: 481
 OK: 477
-NXDOMAIN: 4
-UNKNOWN: 0
+NXDOMAIN: 3
+UNKNOWN: 1
 
 Threshold: 3 consecutive NXDOMAIN
 
@@ -13,4 +13,4 @@ Threshold: 3 consecutive NXDOMAIN
 - gateway.bingviz.microsoft.net
 
 ## Unknowns
-- (none)
+- comfyci.org
