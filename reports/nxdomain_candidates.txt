@@ -1,3 +1,4 @@
 comfyci.org
 comfyregistry.org
 gateway.bingviz.microsoft.net
+windsurf.build
