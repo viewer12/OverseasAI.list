@@ -1,9 +1,9 @@
-# NXDOMAIN Report (2026-10-31 07:40:34Z)
+# NXDOMAIN Report (2026-11-01 08:19:29Z)
 
 Checked domains: 481
 OK: 477
-NXDOMAIN: 2
-UNKNOWN: 2
+NXDOMAIN: 4
+UNKNOWN: 0
 
 Threshold: 3 consecutive NXDOMAIN
 
@@ -14,5 +14,4 @@ Threshold: 3 consecutive NXDOMAIN
 - windsurf.build
 
 ## Unknowns
-- comfyci.org
-- comfyregistry.org
+- (none)
