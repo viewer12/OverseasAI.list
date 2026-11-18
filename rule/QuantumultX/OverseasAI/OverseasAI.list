@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-11-17 09:51:50
-# HOST: 84
+# UPDATED: 2026-11-18 09:25:09
+# HOST: 85
 # HOST-SUFFIX: 399
 # HOST-KEYWORD: 11
 # IP-CIDR: 2
 # IP-ASN: 2
-# TOTAL: 498
+# TOTAL: 499
 HOST,ai-gateway.vercel.sh,OverseasAI
 HOST,ai.google.dev,OverseasAI
 HOST,aicode.googleapis.com,OverseasAI
@@ -63,6 +63,7 @@ HOST,geminiweb-pa.clients6.google.com,OverseasAI
 HOST,generativelanguage.googleapis.com,OverseasAI
 HOST,grazie.aws.intellij.net,OverseasAI
 HOST,grok.x.com,OverseasAI
+HOST,http-intake.logs.us5.datadoghq.com,OverseasAI
 HOST,identitytoolkit.googleapis.com,OverseasAI
 HOST,idetoolkits-hostedfiles.amazonaws.com,OverseasAI
 HOST,idetoolkits.amazonwebservices.com,OverseasAI

@@ -5,13 +5,13 @@
 # INCLUDED-CORE: OpenAI, Claude, Anthropic, Gemini, BardAI, Copilot, Civitai, Stripe
 # INCLUDED-UPSTREAM-EXTRA: see README
 # INCLUDED-CUSTOM: see README
-# UPDATED: 2026-11-17 09:51:50
-# domain_set: 84
+# UPDATED: 2026-11-18 09:25:09
+# domain_set: 85
 # domain_suffix_set: 399
 # domain_keyword_set: 11
 # ip_cidr_set: 2
 # asn_set: 2
-# TOTAL: 498
+# TOTAL: 499
 no_resolve: true
 domain_set:
 - ai-gateway.vercel.sh
@@ -65,6 +65,7 @@ domain_set:
 - generativelanguage.googleapis.com
 - grazie.aws.intellij.net
 - grok.x.com
+- http-intake.logs.us5.datadoghq.com
 - identitytoolkit.googleapis.com
 - idetoolkits-hostedfiles.amazonaws.com
 - idetoolkits.amazonwebservices.com
